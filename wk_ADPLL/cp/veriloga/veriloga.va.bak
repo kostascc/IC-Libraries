@@ -1,0 +1,51 @@
+// Charge Pump
+`include "constants.vams"
+`include "disciplines.vams"
+
+module CP(up,dn,out,vdd,gnd);
+
+input up,dn;
+
+inout out,vdd,gnd;
+electrical up,dn,out,vdd,gnd;
+
+parameter real iamp =40u from [0:inf);
+parameter real tdel =0 from [0:inf);
+parameter real trise =0.1p from (0:inf);
+parameter real tfall =0.1p from (0:inf);
+real iout,vtrans;
+real inc,dec;
+
+analog function real i_mult;
+integer inc_high,dec_high;
+input inc, dec, vtrans;
+real inc,real dec,real vtrans;
+
+begin
+inc_high = inc > vtrans;
+dec_high = dec > vtrans;
+if ( inc_high == dec_high ) begin
+i_mult = 0.0;
+end else if ( inc_high ) begin
+i_mult = 1.0;
+end else if ( dec_high ) begin
+i_mult = -1.0;
+end
+end
+endfunction
+
+analog begin
+vtrans =(V(vdd)-V(gnd))/2;
+@ ( initial_step ) begin
+iout = iamp* i_mult (V(up), V(dn), vtrans );
+end
+@ ( cross (V(up) - vtrans , 0)) begin
+iout = iamp* i_mult (V(up),V(dn), vtrans );
+end
+@ ( cross (V(dn) - vtrans , 0)) begin
+iout = iamp* i_mult (V(up),V(dn), vtrans );
+end
+I(gnd, out) <+ -transition ( iout ,tdel, trise , tfall );
+end
+endmodule
+// Based on model in ahdlLib

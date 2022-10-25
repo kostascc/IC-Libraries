@@ -1,0 +1,8 @@
+TDMCHECKPOINT="1.0"
+keepEmptyCategory type="unknown"
+wk_ADPLL/ADPLL_TOP_model type="cell"
+wk_ADPLL/cp type="cell"
+wk_ADPLL/fdiv type="cell"
+wk_ADPLL/lf3 type="cell"
+wk_ADPLL/pfd type="cell"
+wk_ADPLL/vco type="cell"

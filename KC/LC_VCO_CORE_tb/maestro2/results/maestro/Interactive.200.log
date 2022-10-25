@@ -1,0 +1,27 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Apr  6 00:09:36 2022 
+Best design point: 1
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	FREQUENCY		26.74G	Yes
+	PWR		2.86m	Yes
+	VOSCpp_SE		522.2m	Yes
+	VCM_output		440m	Near
+	output noise; dBc/Hz		Error	No
+	PN_1M		-84.11
+	PN_10M		-107.1
+Design parameters: 
+	wireopt		19
+	VDD		900m
+	nfinga		16
+	ibias		300u
+	fclk		28G
+	TRIM_CAP		4
+	FINE_TRIM_CAP		1
+
+Interactive.200
+Number of points completed: 8
+Number of simulation errors: 8
+Interactive.200 completed. 
+Current time: Wed Apr  6 00:35:30 2022 

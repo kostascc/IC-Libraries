@@ -1,0 +1,31 @@
+DEFINE analogLib $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/etc/cdslib/artist/analogLib
+DEFINE rfLib $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/samples/artist/rfLib
+DEFINE basic $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/etc/cdslib/basic
+DEFINE US_8ths $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/etc/cdslib/sheets/US_8ths
+
+DEFINE avTech /mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech
+DEFINE ahdlLib $(inst_root_with:tools/dfII/bin/virtuoso)/tools/dfII/samples/artist/ahdlLib
+
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/superstack.cds.lib                       #   0
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/10M_2Mx_6Cx_2Ix_LB.cds.lib               #   3
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/10M_2Mx_4Cx_2Bx_2Jx_LB.cds.lib           #   8
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/9M_2Mx_5Cx_1Jx_1Ox_LB.cds.lib            #  11
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/7M_2Mx_3Cx_1Ix_1Ox_LB.cds.lib            #  13
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/7M_2Mx_4Cx_1Ix_LB.cds.lib                #  14
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/8M_2Mx_4Cx_2Ix_LB.cds.lib                #  16
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/8M_2Mx_4Cx_1Ix_1Ox_LB.cds.lib            #  17
+ INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/10M_2Mx_5Cx_1Jx_2Qx_LB.cds.lib           #  19
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/9M_2Mx_3Cx_2Bx_1Ix_1Ox_LB.cds.lib        #  20
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/9M_2Mx_5Cx_2Ix_LB.cds.lib                #  21
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/8M_2Mx_5Cx_1Ix_LB.cds.lib                #  22
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/10M_2Mx_4Cx_2Bx_2Jx_LB__eMRAM.cds.lib    # 108
+# INCLUDE   ${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/9M_2Mx_3Cx_2Bx_1Ix_1Ox_LB__eMRAM.cds.lib # 120
+
+
+
+DEFINE wk_ADPLL ./wk_ADPLL
+DEFINE KC ./KC
+
+
+
+

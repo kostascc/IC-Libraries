@@ -1,0 +1,14 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 09/24/2018 21:03 (ip-172-18-22-224) $
+\o Sub version:		sub-version  p015 
+\o Arguments:		-cdslib /home/ic/workspace/cds.lib -mpssession virtuoso11390 -mpshost rhel 
+\o Working Directory:	rhel:/home/ic/workspace
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\o Warning: (cds.lib parser): Can't open include file "${GF_PDK_HOME}/DesignEnv/VirtuosoOA/setup/10M_2Mx_5Cx_1Jx_2Qx_LB.cds.lib           #  19"
+\o Warning: 	Error occurs in file /home/ic/workspace/cds.lib and line 16
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(50 78 500 400))
+\a exit(0)

@@ -1,0 +1,46 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Oct  5 07:22:16 2021 
+Best design point: 1
+Design specs: 
+	myLib:NAND2IN_analysis:1	corner	Nominal - 
+	tRise		15.1p
+	tFall		10.97p
+	tpH		9.331p
+	tpL		7.608p
+	myLib:NAND2IN_analysis:1:1	corner	Nominal - 
+	tRise		17.38p
+	tFall		11.07p
+	tpALH		11.14p
+	tpAHL		7.105p
+	myLib:NAND2IN_analysis:1:1:1	corner	Nominal - 
+	tRise		15.14p
+	tFall		11.43p
+	tpBLH		9.347p
+	tpAHL		6.244p
+	myLib:NAND2IN_analysis:3	corner	Nominal - 
+	I_Leak_Avg		1.296n
+Design parameters: 
+	T		100p
+	wireopt		11
+	nl		20n
+	nw		190n
+	pl		20n
+	pw		150n
+	nfing		1
+	pfing		1
+	NW2		400n
+	PW2		320n
+	NW		100n
+	PW		100n
+	PW1		275n
+	C		5f
+	F		5G
+	NL		20n
+	PL		20n
+
+Interactive.72
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.72 completed. 
+Current time: Tue Oct  5 07:25:21 2021 

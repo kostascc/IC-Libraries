@@ -1,0 +1,30 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Oct  9 11:43:40 2022 
+Best design point: 1
+Design specs: 
+	wk_ADPLL:PFD_tb:1	corner	Nominal - 
+Design parameters: 
+	DTa		0
+	DTb		0
+	freqGEN		28G
+	freqREF		28.4G
+	tf		80m
+	tr		80m
+	VDD		800m
+	VSS		0
+	Wn1		1.3u
+	Wn3		4u
+	Wni1		580n
+	Wni2		580n
+	Wp1		3.5u
+	Wpi1		970n
+	Wpi2		970n
+	CL		1f
+	Wn2		4u
+
+Interactive.16
+Number of points completed: 3
+Number of simulation errors: 0
+Interactive.16 completed. 
+Current time: Sun Oct  9 11:46:09 2022 

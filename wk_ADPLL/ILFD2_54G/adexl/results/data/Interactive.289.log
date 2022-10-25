@@ -1,0 +1,29 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Oct 21 02:22:00 2022 
+Best design point: 1
+Design specs: 
+	wk_ADPLL:ILFD2_54G:2	corner	Nominal - 
+	AVGFa		94.55G
+Design parameters: 
+	I		3.2m
+	C1		20f
+	C2		30f
+	F1		56G
+	F2		28G
+	L1		220p
+	L2		210p
+	W1		10u
+	W2		15u
+	Ws1		500n
+	Ws2		1u
+	Ws3		2u
+	Ws4		4u
+	Ws5		8u
+	Ws6		1u
+
+Interactive.289
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.289 completed. 
+Current time: Fri Oct 21 02:25:54 2022 

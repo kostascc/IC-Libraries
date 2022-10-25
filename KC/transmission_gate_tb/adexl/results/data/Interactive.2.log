@@ -1,0 +1,28 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Sep 26 00:27:09 2022 
+Best design point: 1
+Design specs: 
+	KC:transmission_gate_tb:1	corner	Nominal - 
+	Tr		5.58p
+	Tf		6.789p
+	Tr-Tf		1.209p
+	Wp		200n
+	Wn		150n
+Design parameters: 
+	Wp		200n
+	Wn		150n
+	Vinss		0
+	Vindd		1.2
+	VSS		0
+	VDD		1.2
+	Tep		1u
+	F2		1M
+	F		56G
+	CL		1.5f
+
+Interactive.2
+Number of points completed: 84
+Number of simulation errors: 0
+Interactive.2 completed. 
+Current time: Mon Sep 26 00:59:05 2022 

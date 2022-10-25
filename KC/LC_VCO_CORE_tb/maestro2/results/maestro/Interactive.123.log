@@ -1,0 +1,68 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sun Sep 11 11:00:51 2022 
+Best design point: 1
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	VAMP_SE		707.3m	No
+	VCM		460m	Yes
+	FOSC		28.27G	Yes
+	PN_1M		-84.95	Yes
+	PN_10M		-109.6	Near
+	FOSC1		Error	No
+Design parameters: 
+	T_STOP		60n
+	VDD		900m
+	ibias		300u
+	nfinga		20
+	COARSE_TRIM_CAP		1
+	FINE_TRIM_CAP		1
+	wireopt		19
+	VCTRL		200m
+	CONFIG/wk_ADPLL/LC_VCO_CORE		schematic_egcaps
+
+Best design point: 27
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	VAMP_SE		580.4m	No
+	VCM		475.6m	Near
+	FOSC		30G	Near
+	PN_1M		-83.27	Yes
+	PN_10M		-106.1	Yes
+	FOSC1		Error	No
+Design parameters: 
+	T_STOP		60n
+	VDD		900m
+	ibias		300u
+	nfinga		20
+	COARSE_TRIM_CAP		1
+	FINE_TRIM_CAP		1
+	wireopt		19
+	VCTRL		360m
+	CONFIG/wk_ADPLL/LC_VCO_CORE		schematic_ncaps_big
+
+Best design point: 3
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	VAMP_SE		511m	Near
+	VCM		471.4m	Yes
+	FOSC		28.66G	Yes
+	PN_1M		-83.01	Yes
+	PN_10M		-106.6	Yes
+	FOSC1		Error	No
+Design parameters: 
+	T_STOP		60n
+	VDD		900m
+	ibias		300u
+	nfinga		20
+	COARSE_TRIM_CAP		1
+	FINE_TRIM_CAP		1
+	wireopt		19
+	VCTRL		200m
+	CONFIG/wk_ADPLL/LC_VCO_CORE		schematic_ncaps_big
+
+Interactive.123
+Number of points completed: 78
+Number of simulation errors: 78
+Interactive.123 completed. 
+Current time: Sun Sep 11 12:12:40 2022 

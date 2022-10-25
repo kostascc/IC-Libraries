@@ -1,0 +1,120 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = wk_ADPLL
+	Cell         = VCO_VI
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = Interactive.336
+	Results DB   = /home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.336.rdb
+	Results Dir  = /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.336/1/wk_ADPLL:VCO_VI:1
+	Results Loc  = /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro
+	Project Dir  = /root/simulation
+	Setup DB loc = /home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1
+	File Encoding = 0
+
+
+variable oasisVariableValue redefined
+variable persistNewList redefined
+*Info*    The simulation mode in Spectre has been changed from
+          'interactive' to 'batch' mode because ICLP.
+
+
+*Info*    The auto suspension is disabled.
+
+
+
+
+
+
+*Info*    Run start for Point ID (4 1) on testbench [
+          wk_ADPLL:VCO_VI:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var I = "3m"
+Setting var NA = ""
+Setting var W1 = "15u"
+Setting var Ws = "0.8u"
+Setting var Ws1 = "1*Ws"
+Setting var Ws2 = "2*Ws"
+Setting var Ws3 = "4*Ws"
+Setting var Ws4 = "8*Ws"
+Setting var Ws5 = "16*Ws"
+Setting var Ws6 = "32*Ws"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.336/1/wk_ADPLL:VCO_VI:1/netlist
+
+
+*Info*    Data Directory    =
+          /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.336/1/wk_ADPLL:VCO_VI:1
+
+
+*Info*    Creating Netlist for Point ID (4 1)
+
+generate netlist...
+Begin Incremental Netlisting Oct 25 02:50:22 2022
+WARNING (OSSHNL-160): The primitive, 'cmos22fdsoi_mmw/int_xformer_mmw/spectre', was not used in the last netlisting session in this
+current run directory. Therefore, re-netlisting all cell views where this
+primitive is instantiated.
+
+End netlisting Oct 25 02:50:22 2022
+
+Netlisting Statistics:
+	Number of components:   31
+
+	Elapsed time:          1.0s (31.00/s)
+Errors: 0	Warnings: 0
+*Warning*	Additional design variables have been found during netlisting.
+ 		A value is necessary for successful simulation.
+		To simulate, assign values to all design variables with 
+		the Variables->Edit... menu, and use "Netlist and Run".
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ wk_ADPLL:VCO_VI:1 ] for
+          Point ID (4 1).
+
+Delete psf data in /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.336/1/wk_ADPLL:VCO_VI:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+*Info*    Simulation completed successfully for points ((4 1)).
+*Info*    Current simulation for points nil.
+*Info*    (ADE-3072): Simulation stopped because you selected the
+          'Stop Simulation' command in ADE.
+
+*Info*    Client has finished evaluating ... 
+
+WARNING (OCN-6038): Results tran are not available for /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.336/1/wk_ADPLL:VCO_VI:1/psf. Use results() for a list of available results.
+ERROR (ASSEMBLER-2709): Evaluation of output 'freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)' returned 'nil' for point:'1' test:'wk_ADPLL:VCO_VI:1'
+	Expression:'freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)'.
+Ensure that the definition of output is correct.
+
+
+*Info*    Run complete for Point ID (4 1) on testbench [
+          wk_ADPLL:VCO_VI:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

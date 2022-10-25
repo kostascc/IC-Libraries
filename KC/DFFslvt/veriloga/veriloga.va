@@ -1,0 +1,29 @@
+// VerilogA for myLib, DFF, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module DFF(Q, QB, Gnd, Vdd, Clk, D, R);
+output Q;
+electrical Q;
+output QB;
+electrical QB;
+inout Gnd;
+electrical Gnd;
+inout Vdd;
+electrical Vdd;
+input Clk;
+electrical Clk;
+input D;
+electrical D;
+input R;
+electrical R;
+
+always @ (posedge Clk or negedge R)
+	begin
+		if(!R)
+			Q <= 0;
+		else
+			Q <= D;
+	end
+endmodule

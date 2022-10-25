@@ -1,0 +1,9 @@
+// VerilogA for wk_ADPLL, ADPLL_TOP, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module ADPLL_TOP_model;
+
+
+endmodule

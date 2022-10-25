@@ -1,0 +1,10 @@
+,Parameter,Nominal,,,,,,FF_POST,FS_POST,SF_POST,SS_POST
+,design_wrapper.lib.scs,tt_pre,,,,,,ff_post,fs_post,sf_post,ff_post
+
+Test,Output,Nominal,Spec,Weight,Pass/Fail,Min,Max,FF_POST,FS_POST,SF_POST,SS_POST
+KC:inverter_tb:1,/OUT,,,,,,,,,,
+KC:inverter_tb:1,/IN,,,,,,,,,,
+KC:inverter_tb:1,Tr,20.38e-12,,,,17.4e-12,23.89e-12,17.4e-12,23.89e-12,17.51e-12,17.4e-12
+KC:inverter_tb:1,Tf,27.47e-12,,,,24.36e-12,29.27e-12,24.36e-12,26.27e-12,29.27e-12,24.36e-12
+KC:inverter_tb:1,Tpd,11.2e-12,,,,9.709e-12,12.78e-12,9.709e-12,9.951e-12,12.78e-12,9.709e-12
+

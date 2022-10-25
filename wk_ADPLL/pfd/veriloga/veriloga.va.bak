@@ -1,0 +1,36 @@
+// Frequency Divider
+`include " constants .vams "
+`include " disciplines .vams "
+module PFD(out, in);
+input in; 
+output out; 
+electrical in, out;
+
+parameter real vlo=0, vhi=0.8;
+parameter integer ratio =2 from [2:inf);
+parameter integer dir=1 from [-1:1] exclude 0;
+// dir=1 for positive edge trigger
+// dir=-1 for negative edge trigger
+parameter real trise =10p from [0:100p); // rise time
+parameter real tfall =10p from [0:100p); // fall time
+parameter real tt=100p from [0:inf);
+parameter real td=10p from (0:inf);
+parameter real jitter =0 from [0:td/5];
+parameter real ttol =1p from (0:td/5);
+integer count , n, seed;
+real dT;
+
+analog begin
+@( initial_step ) seed = -311;
+@( cross (V(in) -(vhi+vlo)/2, dir, ttol )) begin
+count = count +1;
+
+if ( count >= ratio )
+count =0;
+dT = jitter * $dist_normal (seed ,0,1);// add jitter
+end
+n=(2* count >= ratio );
+V(out) <+ transition (n? vhi: vlo, td+dT, trise , tfall , tt);
+end
+endmodule
+// Based on: https :// designers - guide .org/verilog -ams/ functional - blocks /freq - divider /freq - divider .va

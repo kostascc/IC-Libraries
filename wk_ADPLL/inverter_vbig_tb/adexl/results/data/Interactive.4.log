@@ -1,0 +1,33 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Mon Oct 10 21:46:35 2022 
+Best design point: 1
+Design specs: 
+	wk_ADPLL:inverter_vbig_tb:1	corner	FF_PRE - 
+	Tr		4.484p
+	Tf		4.913p
+	wk_ADPLL:inverter_vbig_tb:1	corner	FS_PRE - 
+	Tr		6.06p
+	Tf		5.097p
+	wk_ADPLL:inverter_vbig_tb:1	corner	SF_PRE - 
+	Tr		4.831p
+	Tf		6.262p
+	wk_ADPLL:inverter_vbig_tb:1	corner	SS_PRE - 
+	Tr		4.484p
+	Tf		4.913p
+	wk_ADPLL:inverter_vbig_tb:1	corner	Nominal - 
+	Tr		5.41p
+	Tf		5.669p
+Design parameters: 
+	CL		3f
+	tf		100m
+	tr		100m
+	VDD		800m
+	VSS		0
+	freqD		45G
+
+Interactive.4
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.4 completed. 
+Current time: Mon Oct 10 21:48:36 2022 

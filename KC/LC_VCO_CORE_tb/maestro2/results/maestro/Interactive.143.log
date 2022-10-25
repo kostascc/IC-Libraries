@@ -1,0 +1,27 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Oct 14 19:29:38 2022 
+Best design point: 1
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	VAMP_SE		709m	No
+	VCM		459.8m	Yes
+	FOSC		28.3G	Yes
+	PN_1M		-84.92	Yes
+	PN_10M		-109.6	Yes
+	FOSC1		28.95G	Yes
+Design parameters: 
+	T_STOP		60n
+	VDD		900m
+	ibias		300u
+	nfinga		20
+	COARSE_TRIM_CAP		1
+	FINE_TRIM_CAP		1
+	wireopt		19
+	VCTRL		200m
+	ilo		2.8m
+	iloF		28G
+
+Received stop signal from user. 
+Interactive.143 completed. 
+Current time: Fri Oct 14 19:42:34 2022 

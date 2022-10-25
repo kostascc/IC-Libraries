@@ -1,0 +1,76 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Apr 28 21:36:10 2021 
+Best design point: 1
+Design specs: 
+	myLib:NAND2IN_analysis:1	corner	FF - 
+	tpH		13.73p
+	tpL		15.9p
+	tRise		23.66p
+	tFall		25.68p
+	myLib:NAND2IN_analysis:2	corner	FF - 
+	tpH		14.85p
+	tpL		15.9p
+	tRise		25.22p
+	tFall		25.92p
+	myLib:NAND2IN_analysis:1	corner	SS - 
+	tpH		13.45p
+	tpL		23.42p
+	tRise		Error	No
+	tFall		Error	No
+	myLib:NAND2IN_analysis:2	corner	SS - 
+	tpH		15.22p
+	tpL		23.42p
+	tRise		Error	No
+	tFall		Error	No
+	myLib:NAND2IN_analysis:1	corner	SF - 
+	tpH		10.85p
+	tpL		21.68p
+	tRise		Error	No
+	tFall		Error	No
+	myLib:NAND2IN_analysis:2	corner	SF - 
+	tpH		12.01p
+	tpL		21.68p
+	tRise		Error	No
+	tFall		Error	No
+	myLib:NAND2IN_analysis:1	corner	FS - 
+	tpH		18.42p
+	tpL		16.86p
+	tRise		29.6p
+	tFall		26.93p
+	myLib:NAND2IN_analysis:2	corner	FS - 
+	tpH		20.05p
+	tpL		16.86p
+	tRise		31.04p
+	tFall		27.43p
+	myLib:NAND2IN_analysis:1	corner	Nominal - 
+	tpH		14.52p
+	tpL		19.07p
+	tRise		Error	No
+	tFall		Error	No
+	myLib:NAND2IN_analysis:2	corner	Nominal - 
+	tpH		15.87p
+	tpL		19.07p
+	tRise		Error	No
+	tFall		Error	No
+Design parameters: 
+	T		100p
+	wireopt		11
+	nl		20n
+	nw		190n
+	pl		20n
+	pw		150n
+	nfing		1
+	pfing		1
+	NW2		190n
+	PW2		150n
+	NW		100n
+	PW		100n
+	PW1		275n
+	C		5f
+
+Interactive.70
+Number of points completed: 1
+Number of simulation errors: 12
+Interactive.70 completed. 
+Current time: Wed Apr 28 21:37:21 2021 

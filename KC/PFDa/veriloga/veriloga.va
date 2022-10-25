@@ -1,0 +1,34 @@
+// VerilogA for KC, PFDa, veriloga
+// Authohr: Konstantinos Chatzis
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+
+`define BEHIND_FAR	3'b001
+`define BEHIND_CLOSE 	3'b011
+`define SYNCHRONIZED	3'b111
+`define AHEAD_CLOSE	3'b110
+`define AHEAD_FAR	3'b100
+
+
+module PFDa(OUT, CLKin, CLKref, VDD, VSS);
+input CLKin; 	electrical CLKin;
+output[3:1] OUT; electrical[3:1] out;
+input CLKref; 	electrical CLKref;
+input VDD, VSS; 	electrical VDD, VSS;
+
+real v_CLKin, v_CLKref;  // Input Voltages
+
+analog begin
+	
+	@(initial) begin
+		v_CLKin  = V(CLKin) ;
+		v_CLKref = V(CLKref);	
+	end
+
+	
+
+end
+
+endmodule

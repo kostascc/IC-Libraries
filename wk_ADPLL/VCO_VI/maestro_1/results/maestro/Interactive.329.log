@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Oct 25 00:43:55 2022 
+Best design point: 1
+Design specs: 
+	wk_ADPLL:VCO_VI:1	corner	Nominal - 
+Design parameters: 
+	Ws		400n
+	wk_ADPLL/VCO_VI/schematic/N0  w		W1
+
+Interactive.329
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.329 completed. 
+Current time: Tue Oct 25 00:44:07 2022 

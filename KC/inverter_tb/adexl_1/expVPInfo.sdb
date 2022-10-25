@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<setupdb version="6">expVPInfo
+	<active>Active Setup
+		<vars>
+			<var>CL
+				<value>5f</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:inverter_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>F
+				<value>10G</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:inverter_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD
+				<value>0.8</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:inverter_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VSS
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:inverter_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">WpWn
+				<value>1.7215</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">KC:inverter_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wn
+				<value>570n</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:inverter_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wp
+				<value>WpWn*Wn</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:inverter_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+	</active>
+	<history>History</history>
+</setupdb>

@@ -1,0 +1,39 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Oct  7 14:59:03 2022 
+Best design point: 1
+Design specs: 
+	KC:inverter_tb:1	corner	FF_PRE - 
+	Tr		20.96p
+	Tf		22.45p
+	Tpd		9.403p
+	KC:inverter_tb:1	corner	FS_PRE - 
+	Tr		27.25p
+	Tf		23.86p
+	Tpd		9.509p
+	KC:inverter_tb:1	corner	SF_PRE - 
+	Tr		20.97p
+	Tf		25.88p
+	Tpd		11.41p
+	KC:inverter_tb:1	corner	SS_PRE - 
+	Tr		20.96p
+	Tf		22.45p
+	Tpd		9.403p
+	KC:inverter_tb:1	corner	Nominal - 
+	Tr		24.35p
+	Tf		24.76p
+	Tpd		10.37p
+Design parameters: 
+	CL		5f
+	F		2G
+	VDD		800m
+	VSS		0
+	WpWn		1.722
+	Wn		570n
+	Wp		981.3n
+
+Interactive.51
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.51 completed. 
+Current time: Fri Oct  7 15:03:11 2022 

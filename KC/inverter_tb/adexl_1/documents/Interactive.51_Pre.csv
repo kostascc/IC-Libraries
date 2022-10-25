@@ -1,0 +1,10 @@
+,Parameter,Nominal,,,,,,FF_PRE,FS_PRE,SF_PRE,SS_PRE
+,design_wrapper.lib.scs,tt_pre,,,,,,ff_pre,fs_pre,sf_pre,ff_pre
+
+Test,Output,Nominal,Spec,Weight,Pass/Fail,Min,Max,FF_PRE,FS_PRE,SF_PRE,SS_PRE
+KC:inverter_tb:1,/OUT,,,,,,,,,,
+KC:inverter_tb:1,/IN,,,,,,,,,,
+KC:inverter_tb:1,Tr,24.35e-12,,,,20.96e-12,27.25e-12,20.96e-12,27.25e-12,20.97e-12,20.96e-12
+KC:inverter_tb:1,Tf,24.76e-12,,,,22.45e-12,25.88e-12,22.45e-12,23.86e-12,25.88e-12,22.45e-12
+KC:inverter_tb:1,Tpd,10.37e-12,,,,9.403e-12,11.41e-12,9.403e-12,9.509e-12,11.41e-12,9.403e-12
+

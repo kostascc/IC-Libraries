@@ -1,0 +1,4498 @@
+<?xml version="1.0"?>
+<setupdb version="6">maestro
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="1">NOM_85
+				<vars>
+					<var>temperature
+						<value>85</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"tt_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"tt_pre"</modelsection>
+					</model>
+					<model enabled="0">apmom_mmw.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_include_mmw.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">SLOW_m40
+				<vars>
+					<var>temperature
+						<value>-40</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ss_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"ss_pre"</modelsection>
+					</model>
+					<model enabled="0">apmom_mmw.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_include_mmw.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">SLOW_125
+				<vars>
+					<var>temperature
+						<value>125</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ss_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"ss_pre"</modelsection>
+					</model>
+					<model enabled="0">apmom_mmw.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_include_mmw.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">FAST_m40
+				<vars>
+					<var>temperature
+						<value>-40</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">apmom_mmw.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_include_mmw.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">FAST_125
+				<vars>
+					<var>temperature
+						<value>125</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">apmom_mmw.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_include_mmw.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">wk_ADPLL:ILFD2_54G:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>ILFD2_54G</value>
+					</option>
+					<option>lib
+						<value>wk_ADPLL</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>ILFD2_54G</value>
+					</option>
+					<option>lib
+						<value>wk_ADPLL</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+				<outputs>
+					<output>"/Va1"
+						<evalType>point</evalType>
+					</output>
+					<output>"/Va2"
+						<evalType>point</evalType>
+					</output>
+					<output>Iscd
+						<evalType>point</evalType>
+					</output>
+					<output>Iprm
+						<evalType>point</evalType>
+					</output>
+					<output>freq(VT("/Va1") "rising" 0.8)
+						<evalType>point</evalType>
+					</output>
+					<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+						<evalType>point</evalType>
+					</output>
+					<output>/Vsw1
+						<evalType>point</evalType>
+					</output>
+					<output>/Vsw2
+						<evalType>point</evalType>
+					</output>
+					<output>/Vb1
+						<evalType>point</evalType>
+					</output>
+					<output>/Vb2
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+				<vars>
+					<var>C2
+						<value>0</value>
+					</var>
+					<var>I
+						<value>3.1m</value>
+					</var>
+					<var>W1
+						<value>15u</value>
+					</var>
+					<var>Ws4
+						<value>4*Ws</value>
+					</var>
+					<var>Ws1
+						<value>1*Ws</value>
+					</var>
+					<var>Ws2
+						<value>2*Ws</value>
+					</var>
+					<var>Ws3
+						<value>3*Ws</value>
+					</var>
+					<var>Ws5
+						<value>5*Ws</value>
+					</var>
+					<var>Ws6
+						<value>6*Ws</value>
+					</var>
+					<var>NA
+						<value></value>
+					</var>
+					<var>Ws
+						<value>0.4u</value>
+					</var>
+					<var>I2
+						<value>4.1m</value>
+					</var>
+					<var>I1
+						<value>6.1m</value>
+					</var>
+					<var>W2
+						<value>11u</value>
+					</var>
+					<var>Wn
+						<value>0.97u</value>
+					</var>
+					<var>Wp
+						<value>0.58u</value>
+					</var>
+				</vars>
+			</test>
+		</tests>
+		<disabledtests></disabledtests>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+		</checksasserts>
+		<plottingoptions>
+			<plottingoption>waveformtemplate
+				<value>(None)</value>
+			</plottingoption>
+			<plottingoption>autoplotmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+		<exploreroptions>
+			<exploreroption>waveformtemplate
+				<value>(None)</value>
+			</exploreroption>
+			<exploreroption>autoplotmode
+				<value>Replace</value>
+			</exploreroption>
+		</exploreroptions>
+		<allvarsdisabled>0</allvarsdisabled>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+		</incrementalsimulationoptions>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<vars>
+			<var>I1
+				<value>20m</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">I2
+				<value>0.005m</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<allcornersenabled>0</allcornersenabled>
+		<sortVariableValues>0</sortVariableValues>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.285
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">NOM_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:ILFD2_54G:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.285</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>"/Va1"
+								<evalType>point</evalType>
+							</output>
+							<output>"/Va2"
+								<evalType>point</evalType>
+							</output>
+							<output>Iscd
+								<evalType>point</evalType>
+							</output>
+							<output>Iprm
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" 0.8)
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>C2
+								<value>0</value>
+							</var>
+							<var>I
+								<value>3.1m</value>
+							</var>
+							<var>W1
+								<value>15u</value>
+							</var>
+							<var>Ws4
+								<value>4*Ws</value>
+							</var>
+							<var>Ws1
+								<value>1*Ws</value>
+							</var>
+							<var>Ws2
+								<value>2*Ws</value>
+							</var>
+							<var>Ws3
+								<value>3*Ws</value>
+							</var>
+							<var>Ws5
+								<value>5*Ws</value>
+							</var>
+							<var>Ws6
+								<value>6*Ws</value>
+							</var>
+							<var>NA
+								<value></value>
+							</var>
+							<var>Ws
+								<value>0.4u</value>
+							</var>
+							<var>I2
+								<value>4.1m</value>
+							</var>
+							<var>I1
+								<value>6.1m</value>
+							</var>
+							<var>W2
+								<value>11u</value>
+							</var>
+							<var>Wn
+								<value>0.97u</value>
+							</var>
+							<var>Wp
+								<value>0.58u</value>
+							</var>
+						</vars>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<allvarsdisabled>0</allvarsdisabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<vars>
+					<var>I1
+						<value>25m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">I2
+						<value>0.005m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Oct 22 21:27:12 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.285.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.285.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_212712086</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.285</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.285</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.285.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.285.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.286
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">NOM_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:ILFD2_54G:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.286</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>"/Va1"
+								<evalType>point</evalType>
+							</output>
+							<output>"/Va2"
+								<evalType>point</evalType>
+							</output>
+							<output>Iscd
+								<evalType>point</evalType>
+							</output>
+							<output>Iprm
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" 0.8)
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>C2
+								<value>0</value>
+							</var>
+							<var>I
+								<value>3.1m</value>
+							</var>
+							<var>W1
+								<value>15u</value>
+							</var>
+							<var>Ws4
+								<value>4*Ws</value>
+							</var>
+							<var>Ws1
+								<value>1*Ws</value>
+							</var>
+							<var>Ws2
+								<value>2*Ws</value>
+							</var>
+							<var>Ws3
+								<value>3*Ws</value>
+							</var>
+							<var>Ws5
+								<value>5*Ws</value>
+							</var>
+							<var>Ws6
+								<value>6*Ws</value>
+							</var>
+							<var>NA
+								<value></value>
+							</var>
+							<var>Ws
+								<value>0.4u</value>
+							</var>
+							<var>I2
+								<value>4.1m</value>
+							</var>
+							<var>I1
+								<value>6.1m</value>
+							</var>
+							<var>W2
+								<value>11u</value>
+							</var>
+							<var>Wn
+								<value>0.97u</value>
+							</var>
+							<var>Wp
+								<value>0.58u</value>
+							</var>
+						</vars>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<allvarsdisabled>0</allvarsdisabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<vars>
+					<var>I1
+						<value>40m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">I2
+						<value>0.005m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Oct 22 21:29:14 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.286.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.286.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_212914040</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.286</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.286</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.286.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.286.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.287
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">NOM_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:ILFD2_54G:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.287</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>"/Va1"
+								<evalType>point</evalType>
+							</output>
+							<output>"/Va2"
+								<evalType>point</evalType>
+							</output>
+							<output>Iscd
+								<evalType>point</evalType>
+							</output>
+							<output>Iprm
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" 0.8)
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>C2
+								<value>0</value>
+							</var>
+							<var>I
+								<value>3.1m</value>
+							</var>
+							<var>W1
+								<value>15u</value>
+							</var>
+							<var>Ws4
+								<value>4*Ws</value>
+							</var>
+							<var>Ws1
+								<value>1*Ws</value>
+							</var>
+							<var>Ws2
+								<value>2*Ws</value>
+							</var>
+							<var>Ws3
+								<value>3*Ws</value>
+							</var>
+							<var>Ws5
+								<value>5*Ws</value>
+							</var>
+							<var>Ws6
+								<value>6*Ws</value>
+							</var>
+							<var>NA
+								<value></value>
+							</var>
+							<var>Ws
+								<value>0.4u</value>
+							</var>
+							<var>I2
+								<value>4.1m</value>
+							</var>
+							<var>I1
+								<value>6.1m</value>
+							</var>
+							<var>W2
+								<value>11u</value>
+							</var>
+							<var>Wn
+								<value>0.97u</value>
+							</var>
+							<var>Wp
+								<value>0.58u</value>
+							</var>
+						</vars>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<allvarsdisabled>0</allvarsdisabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<vars>
+					<var>I1
+						<value>40m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">I2
+						<value>0.005m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Oct 22 21:32:08 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.287.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.287.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_213208338</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.287</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.287</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.287.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.287.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.288
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">NOM_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:ILFD2_54G:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.288</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>"/Va1"
+								<evalType>point</evalType>
+							</output>
+							<output>"/Va2"
+								<evalType>point</evalType>
+							</output>
+							<output>Iscd
+								<evalType>point</evalType>
+							</output>
+							<output>Iprm
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" 0.8)
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>C2
+								<value>0</value>
+							</var>
+							<var>I
+								<value>3.1m</value>
+							</var>
+							<var>W1
+								<value>15u</value>
+							</var>
+							<var>Ws4
+								<value>4*Ws</value>
+							</var>
+							<var>Ws1
+								<value>1*Ws</value>
+							</var>
+							<var>Ws2
+								<value>2*Ws</value>
+							</var>
+							<var>Ws3
+								<value>3*Ws</value>
+							</var>
+							<var>Ws5
+								<value>5*Ws</value>
+							</var>
+							<var>Ws6
+								<value>6*Ws</value>
+							</var>
+							<var>NA
+								<value></value>
+							</var>
+							<var>Ws
+								<value>0.4u</value>
+							</var>
+							<var>I2
+								<value>4.1m</value>
+							</var>
+							<var>I1
+								<value>6.1m</value>
+							</var>
+							<var>W2
+								<value>11u</value>
+							</var>
+							<var>Wn
+								<value>0.97u</value>
+							</var>
+							<var>Wp
+								<value>0.58u</value>
+							</var>
+						</vars>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<allvarsdisabled>0</allvarsdisabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<vars>
+					<var>I1
+						<value>40m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">I2
+						<value>0.005m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Oct 22 21:34:20 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.288.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.288.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_213420551</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.288</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.288</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.288.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.288.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.289
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">NOM_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:ILFD2_54G:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.289</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>"/Va1"
+								<evalType>point</evalType>
+							</output>
+							<output>"/Va2"
+								<evalType>point</evalType>
+							</output>
+							<output>Iscd
+								<evalType>point</evalType>
+							</output>
+							<output>Iprm
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" 0.8)
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>C2
+								<value>0</value>
+							</var>
+							<var>I
+								<value>3.1m</value>
+							</var>
+							<var>W1
+								<value>15u</value>
+							</var>
+							<var>Ws4
+								<value>4*Ws</value>
+							</var>
+							<var>Ws1
+								<value>1*Ws</value>
+							</var>
+							<var>Ws2
+								<value>2*Ws</value>
+							</var>
+							<var>Ws3
+								<value>3*Ws</value>
+							</var>
+							<var>Ws5
+								<value>5*Ws</value>
+							</var>
+							<var>Ws6
+								<value>6*Ws</value>
+							</var>
+							<var>NA
+								<value></value>
+							</var>
+							<var>Ws
+								<value>0.4u</value>
+							</var>
+							<var>I2
+								<value>4.1m</value>
+							</var>
+							<var>I1
+								<value>6.1m</value>
+							</var>
+							<var>W2
+								<value>11u</value>
+							</var>
+							<var>Wn
+								<value>0.97u</value>
+							</var>
+							<var>Wp
+								<value>0.58u</value>
+							</var>
+						</vars>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<allvarsdisabled>0</allvarsdisabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<vars>
+					<var>I1
+						<value>20m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">I2
+						<value>0.005m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Oct 22 21:35:40 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.289.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.289.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_213540314</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.289</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.289</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.289.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.289.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.290
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">NOM_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:ILFD2_54G:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.290</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>"/Va1"
+								<evalType>point</evalType>
+							</output>
+							<output>"/Va2"
+								<evalType>point</evalType>
+							</output>
+							<output>Iscd
+								<evalType>point</evalType>
+							</output>
+							<output>Iprm
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" 0.8)
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>C2
+								<value>0</value>
+							</var>
+							<var>I
+								<value>3.1m</value>
+							</var>
+							<var>W1
+								<value>15u</value>
+							</var>
+							<var>Ws4
+								<value>4*Ws</value>
+							</var>
+							<var>Ws1
+								<value>1*Ws</value>
+							</var>
+							<var>Ws2
+								<value>2*Ws</value>
+							</var>
+							<var>Ws3
+								<value>3*Ws</value>
+							</var>
+							<var>Ws5
+								<value>5*Ws</value>
+							</var>
+							<var>Ws6
+								<value>6*Ws</value>
+							</var>
+							<var>NA
+								<value></value>
+							</var>
+							<var>Ws
+								<value>0.4u</value>
+							</var>
+							<var>I2
+								<value>4.1m</value>
+							</var>
+							<var>I1
+								<value>6.1m</value>
+							</var>
+							<var>W2
+								<value>11u</value>
+							</var>
+							<var>Wn
+								<value>0.97u</value>
+							</var>
+							<var>Wp
+								<value>0.58u</value>
+							</var>
+						</vars>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<allvarsdisabled>0</allvarsdisabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<vars>
+					<var>I1
+						<value>20m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">I2
+						<value>0.005m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Oct 22 21:36:49 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.290.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.290.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_213649051</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.290</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.290</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.290.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.290.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.291
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">NOM_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:ILFD2_54G:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.291</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>"/Va1"
+								<evalType>point</evalType>
+							</output>
+							<output>"/Va2"
+								<evalType>point</evalType>
+							</output>
+							<output>Iscd
+								<evalType>point</evalType>
+							</output>
+							<output>Iprm
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" 0.8)
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>C2
+								<value>0</value>
+							</var>
+							<var>I
+								<value>3.1m</value>
+							</var>
+							<var>W1
+								<value>15u</value>
+							</var>
+							<var>Ws4
+								<value>4*Ws</value>
+							</var>
+							<var>Ws1
+								<value>1*Ws</value>
+							</var>
+							<var>Ws2
+								<value>2*Ws</value>
+							</var>
+							<var>Ws3
+								<value>3*Ws</value>
+							</var>
+							<var>Ws5
+								<value>5*Ws</value>
+							</var>
+							<var>Ws6
+								<value>6*Ws</value>
+							</var>
+							<var>NA
+								<value></value>
+							</var>
+							<var>Ws
+								<value>0.4u</value>
+							</var>
+							<var>I2
+								<value>4.1m</value>
+							</var>
+							<var>I1
+								<value>6.1m</value>
+							</var>
+							<var>W2
+								<value>11u</value>
+							</var>
+							<var>Wn
+								<value>0.97u</value>
+							</var>
+							<var>Wp
+								<value>0.58u</value>
+							</var>
+						</vars>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<allvarsdisabled>0</allvarsdisabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<vars>
+					<var>I1
+						<value>20m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">I2
+						<value>0.005m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Oct 22 21:39:04 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.291.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.291.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_213904342</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.291</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.291</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.291.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.291.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.292
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">NOM_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:ILFD2_54G:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.292</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>"/Va1"
+								<evalType>point</evalType>
+							</output>
+							<output>"/Va2"
+								<evalType>point</evalType>
+							</output>
+							<output>Iscd
+								<evalType>point</evalType>
+							</output>
+							<output>Iprm
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" 0.8)
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>C2
+								<value>0</value>
+							</var>
+							<var>I
+								<value>3.1m</value>
+							</var>
+							<var>W1
+								<value>15u</value>
+							</var>
+							<var>Ws4
+								<value>4*Ws</value>
+							</var>
+							<var>Ws1
+								<value>1*Ws</value>
+							</var>
+							<var>Ws2
+								<value>2*Ws</value>
+							</var>
+							<var>Ws3
+								<value>3*Ws</value>
+							</var>
+							<var>Ws5
+								<value>5*Ws</value>
+							</var>
+							<var>Ws6
+								<value>6*Ws</value>
+							</var>
+							<var>NA
+								<value></value>
+							</var>
+							<var>Ws
+								<value>0.4u</value>
+							</var>
+							<var>I2
+								<value>4.1m</value>
+							</var>
+							<var>I1
+								<value>6.1m</value>
+							</var>
+							<var>W2
+								<value>11u</value>
+							</var>
+							<var>Wn
+								<value>0.97u</value>
+							</var>
+							<var>Wp
+								<value>0.58u</value>
+							</var>
+						</vars>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<allvarsdisabled>0</allvarsdisabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<vars>
+					<var>I1
+						<value>20m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">I2
+						<value>0.005m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Oct 22 21:39:54 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.292.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.292.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_213954277</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.292</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.292</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.292.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.292.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.293
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">NOM_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:ILFD2_54G:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.293</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>"/Va1"
+								<evalType>point</evalType>
+							</output>
+							<output>"/Va2"
+								<evalType>point</evalType>
+							</output>
+							<output>Iscd
+								<evalType>point</evalType>
+							</output>
+							<output>Iprm
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" 0.8)
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>C2
+								<value>0</value>
+							</var>
+							<var>I
+								<value>3.1m</value>
+							</var>
+							<var>W1
+								<value>15u</value>
+							</var>
+							<var>Ws4
+								<value>4*Ws</value>
+							</var>
+							<var>Ws1
+								<value>1*Ws</value>
+							</var>
+							<var>Ws2
+								<value>2*Ws</value>
+							</var>
+							<var>Ws3
+								<value>3*Ws</value>
+							</var>
+							<var>Ws5
+								<value>5*Ws</value>
+							</var>
+							<var>Ws6
+								<value>6*Ws</value>
+							</var>
+							<var>NA
+								<value></value>
+							</var>
+							<var>Ws
+								<value>0.4u</value>
+							</var>
+							<var>I2
+								<value>4.1m</value>
+							</var>
+							<var>I1
+								<value>6.1m</value>
+							</var>
+							<var>W2
+								<value>11u</value>
+							</var>
+							<var>Wn
+								<value>0.97u</value>
+							</var>
+							<var>Wp
+								<value>0.58u</value>
+							</var>
+						</vars>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<allvarsdisabled>0</allvarsdisabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<vars>
+					<var>I1
+						<value>20m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">I2
+						<value>0.005m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 22 21:40:45 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.293.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.293.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_214045939</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.293</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.293</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.293.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.293.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.294
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">NOM_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SLOW_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FAST_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">apmom_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/apmom_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_include_mmw.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>/mnt/eda_a/eda/designkits/GlobalFoundries/GF_22nm/22FDX-EXT/V1.0_2.0a/Models/Spectre/models/design_include_mmw.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:ILFD2_54G:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.294</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>"/Va1"
+								<evalType>point</evalType>
+							</output>
+							<output>"/Va2"
+								<evalType>point</evalType>
+							</output>
+							<output>Iscd
+								<evalType>point</evalType>
+							</output>
+							<output>Iprm
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" 0.8)
+								<evalType>point</evalType>
+							</output>
+							<output>freq(VT("/Va1") "rising" ?xName "time" ?mode "auto" ?threshold 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars>
+							<var>C2
+								<value>0</value>
+							</var>
+							<var>I
+								<value>3.1m</value>
+							</var>
+							<var>W1
+								<value>15u</value>
+							</var>
+							<var>Ws4
+								<value>4*Ws</value>
+							</var>
+							<var>Ws1
+								<value>1*Ws</value>
+							</var>
+							<var>Ws2
+								<value>2*Ws</value>
+							</var>
+							<var>Ws3
+								<value>3*Ws</value>
+							</var>
+							<var>Ws5
+								<value>5*Ws</value>
+							</var>
+							<var>Ws6
+								<value>6*Ws</value>
+							</var>
+							<var>NA
+								<value></value>
+							</var>
+							<var>Ws
+								<value>0.4u</value>
+							</var>
+							<var>I2
+								<value>4.1m</value>
+							</var>
+							<var>I1
+								<value>6.1m</value>
+							</var>
+							<var>W2
+								<value>11u</value>
+							</var>
+							<var>Wn
+								<value>0.97u</value>
+							</var>
+							<var>Wp
+								<value>0.58u</value>
+							</var>
+						</vars>
+					</test>
+				</tests>
+				<disabledtests></disabledtests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:ILFD2_54G:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+					<exploreroption>autoplotmode
+						<value>Replace</value>
+					</exploreroption>
+				</exploreroptions>
+				<allvarsdisabled>0</allvarsdisabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<vars>
+					<var>I1
+						<value>20m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">I2
+						<value>0.005m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allcornersenabled>0</allcornersenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 24 22:24:08 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.294.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.294.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_root_222408739</localpsfdir>
+			<psfdir>/root/simulation/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.294</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.294</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/ILFD2_54G/maestro/results/maestro/Interactive.294.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.294.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

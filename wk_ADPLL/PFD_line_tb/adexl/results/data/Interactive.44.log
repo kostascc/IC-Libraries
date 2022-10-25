@@ -1,0 +1,38 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Oct  8 22:40:15 2022 
+Best design point: 1
+Design specs: 
+	dt_sweep	corner	Nominal - 
+	DTb		0
+Design parameters: 
+	DTb (local override)		0
+	DTa		0
+	freqA		14G
+	freqB		14.3G
+	tf		80m
+	tr		80m
+	VDD		800m
+	VSS		0
+	CL		3f
+	Wp		100n
+	Wn		100n
+	N		3
+	Wpi2		970n
+	Wpi1		970n
+	Wni2		580n
+	Wni1		580n
+	Wp1		1u
+	Wn3		2u
+	Wn2		1u
+	Wn1		1u
+	va		2.8
+	vb		1
+	vc		1
+	vd		1
+
+Interactive.44
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.44 completed. 
+Current time: Sat Oct  8 22:40:53 2022 

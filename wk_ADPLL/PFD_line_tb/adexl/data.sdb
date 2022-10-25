@@ -1,0 +1,3835 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">dt_sweep
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>PFD_line_tb</value>
+					</option>
+					<option>lib
+						<value>wk_ADPLL</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>dt_sweep_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>PFD_line_tb</value>
+					</option>
+					<option>lib
+						<value>wk_ADPLL</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>tmpstate.413744411</value>
+					</option>
+				</origoptions>
+			</test>
+			<test enabled="1">minimal_dt_optimization
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>PFD_line_tb</value>
+					</option>
+					<option>lib
+						<value>wk_ADPLL</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>state
+						<value>minimal_dt_optimization_active</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</tooloptions>
+				<prerunscript>0</prerunscript>
+				<origoptions>
+					<option>cell
+						<value>PFD_line_tb</value>
+					</option>
+					<option>lib
+						<value>wk_ADPLL</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>state
+						<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var enabled="1">DTb
+				<value>0</value>
+				<dependentTests>
+					<dependentTest enabled="0">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>DTa
+				<value>0</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>freqA
+				<value>28G</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>freqB
+				<value>28.3G</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>tf
+				<value>0.08</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>tr
+				<value>0.08</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD
+				<value>800m</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VSS
+				<value>0</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>CL
+				<value>3f</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wp
+				<value>100n</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wn
+				<value>100n</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>N
+				<value>3</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wpi2
+				<value>970n</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wpi1
+				<value>970n</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wni2
+				<value>580n</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wni1
+				<value>580n</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wp1
+				<value>2.4u</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wn3
+				<value>2u</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wn2
+				<value>2u</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wn1
+				<value>2u</value>
+				<dependentTests>
+					<dependentTest enabled="1">dt_sweep</dependentTest>
+					<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">va
+				<value>2.8</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">vb
+				<value>1</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">vc
+				<value>1</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">vd
+				<value>1</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottingmode
+				<value>Append</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+		<disabledtests>
+			<test>wk_ADPLL:PFD_line_tb:1</test>
+			<test>wk_ADPLL:PFD_line_tb:1:1</test>
+			<test>minimal_dt_optimization</test>
+		</disabledtests>
+		<allvarsdisabled>0</allvarsdisabled>
+		<runoptions>
+			<mode>Global Optimization
+				<runoption>referencepoint
+					<value>0</value>
+				</runoption>
+				<runoption>startingstateorpoint
+					<value>Reference Point</value>
+				</runoption>
+				<runoption>startingstatename
+					<value>NONE</value>
+				</runoption>
+				<runoption>lazy
+					<value>1</value>
+				</runoption>
+				<runoption>tillsatisfied
+					<value>1</value>
+				</runoption>
+				<runoption>timelimit
+					<value></value>
+				</runoption>
+				<runoption>numpoints
+					<value></value>
+				</runoption>
+				<runoption>ptswithnoimprovement
+					<value></value>
+				</runoption>
+				<runoption>pointsAfterAllSpecsSatisfied
+					<value></value>
+				</runoption>
+			</mode>
+		</runoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.43
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">dt_sweep
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>dt_sweep_tmpstate.413744411_Interactive.43</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413744411</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">minimal_dt_optimization
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>minimal_dt_optimization_wk_ADPLL:PFD_line_tb:1:1_state_Interactive.43</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">DTb
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>DTa
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqA
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqB
+						<value>28.4G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3f</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>3</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi2
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi1
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni2
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni1
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp1
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn2
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn1
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">va
+						<value>2.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vd
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>wk_ADPLL:PFD_line_tb:1</test>
+					<test>wk_ADPLL:PFD_line_tb:1:1</test>
+					<test>minimal_dt_optimization</test>
+				</disabledtests>
+				<allvarsdisabled>0</allvarsdisabled>
+				<runoptions>
+					<mode>Global Optimization
+						<runoption>referencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>startingstateorpoint
+							<value>Reference Point</value>
+						</runoption>
+						<runoption>startingstatename
+							<value>NONE</value>
+						</runoption>
+						<runoption>lazy
+							<value>1</value>
+						</runoption>
+						<runoption>tillsatisfied
+							<value>1</value>
+						</runoption>
+						<runoption>timelimit
+							<value></value>
+						</runoption>
+						<runoption>numpoints
+							<value></value>
+						</runoption>
+						<runoption>ptswithnoimprovement
+							<value></value>
+						</runoption>
+						<runoption>pointsAfterAllSpecsSatisfied
+							<value></value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 8 22:37:52 2022</timestamp>
+			<uuid>{e0692376-07c7-42ae-a18f-5b953b1751c5}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.43.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.43.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn98.it.auth.gr_kachatzis_223752989</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.43</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.43</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.43.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.43.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.44
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">dt_sweep
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>dt_sweep_tmpstate.413744411_Interactive.44</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413744411</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">minimal_dt_optimization
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>minimal_dt_optimization_wk_ADPLL:PFD_line_tb:1:1_state_Interactive.44</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">DTb
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>DTa
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqA
+						<value>14G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqB
+						<value>14.3G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3f</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>3</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi2
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi1
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni2
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni1
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp1
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn2
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn1
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">va
+						<value>2.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vd
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>wk_ADPLL:PFD_line_tb:1</test>
+					<test>wk_ADPLL:PFD_line_tb:1:1</test>
+					<test>minimal_dt_optimization</test>
+				</disabledtests>
+				<allvarsdisabled>0</allvarsdisabled>
+				<runoptions>
+					<mode>Global Optimization
+						<runoption>referencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>startingstateorpoint
+							<value>Reference Point</value>
+						</runoption>
+						<runoption>startingstatename
+							<value>NONE</value>
+						</runoption>
+						<runoption>lazy
+							<value>1</value>
+						</runoption>
+						<runoption>tillsatisfied
+							<value>1</value>
+						</runoption>
+						<runoption>timelimit
+							<value></value>
+						</runoption>
+						<runoption>numpoints
+							<value></value>
+						</runoption>
+						<runoption>ptswithnoimprovement
+							<value></value>
+						</runoption>
+						<runoption>pointsAfterAllSpecsSatisfied
+							<value></value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 8 22:40:12 2022</timestamp>
+			<uuid>{2817a737-8afe-467c-811d-88543b9e8ced}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.44.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.44.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn98.it.auth.gr_kachatzis_224012960</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.44</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.44</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.44.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.44.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.45
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">dt_sweep
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>dt_sweep_tmpstate.413744411_Interactive.45</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413744411</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">minimal_dt_optimization
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>minimal_dt_optimization_wk_ADPLL:PFD_line_tb:1:1_state_Interactive.45</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">DTb
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>DTa
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqA
+						<value>14G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqB
+						<value>14.3G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3f</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>3</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi2
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi1
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni2
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni1
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp1
+						<value>2.4u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn2
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn1
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">va
+						<value>2.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vd
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>wk_ADPLL:PFD_line_tb:1</test>
+					<test>wk_ADPLL:PFD_line_tb:1:1</test>
+					<test>minimal_dt_optimization</test>
+				</disabledtests>
+				<allvarsdisabled>0</allvarsdisabled>
+				<runoptions>
+					<mode>Global Optimization
+						<runoption>referencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>startingstateorpoint
+							<value>Reference Point</value>
+						</runoption>
+						<runoption>startingstatename
+							<value>NONE</value>
+						</runoption>
+						<runoption>lazy
+							<value>1</value>
+						</runoption>
+						<runoption>tillsatisfied
+							<value>1</value>
+						</runoption>
+						<runoption>timelimit
+							<value></value>
+						</runoption>
+						<runoption>numpoints
+							<value></value>
+						</runoption>
+						<runoption>ptswithnoimprovement
+							<value></value>
+						</runoption>
+						<runoption>pointsAfterAllSpecsSatisfied
+							<value></value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 8 22:41:30 2022</timestamp>
+			<uuid>{3e06dd8b-2b5e-4aec-919e-6fe8b3196c4a}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.45.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.45.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn98.it.auth.gr_kachatzis_224130359</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.45</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.45</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.45.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.45.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.46
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">dt_sweep
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>dt_sweep_tmpstate.413744411_Interactive.46</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413744411</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">minimal_dt_optimization
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>minimal_dt_optimization_wk_ADPLL:PFD_line_tb:1:1_state_Interactive.46</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">DTb
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>DTa
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqA
+						<value>14G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqB
+						<value>14.3G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3f</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>3</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi2
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi1
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni2
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni1
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp1
+						<value>2.4u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn2
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn1
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">va
+						<value>2.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vd
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>wk_ADPLL:PFD_line_tb:1</test>
+					<test>wk_ADPLL:PFD_line_tb:1:1</test>
+					<test>minimal_dt_optimization</test>
+				</disabledtests>
+				<allvarsdisabled>0</allvarsdisabled>
+				<runoptions>
+					<mode>Global Optimization
+						<runoption>referencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>startingstateorpoint
+							<value>Reference Point</value>
+						</runoption>
+						<runoption>startingstatename
+							<value>NONE</value>
+						</runoption>
+						<runoption>lazy
+							<value>1</value>
+						</runoption>
+						<runoption>tillsatisfied
+							<value>1</value>
+						</runoption>
+						<runoption>timelimit
+							<value></value>
+						</runoption>
+						<runoption>numpoints
+							<value></value>
+						</runoption>
+						<runoption>ptswithnoimprovement
+							<value></value>
+						</runoption>
+						<runoption>pointsAfterAllSpecsSatisfied
+							<value></value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 8 22:43:05 2022</timestamp>
+			<uuid>{883d265e-9c1f-40b3-8b9a-5182f13d563d}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.46.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.46.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn98.it.auth.gr_kachatzis_224305996</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.46</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.46</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.46.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.46.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.47
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">dt_sweep
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>dt_sweep_tmpstate.413744411_Interactive.47</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413744411</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">minimal_dt_optimization
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>minimal_dt_optimization_wk_ADPLL:PFD_line_tb:1:1_state_Interactive.47</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">DTb
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>DTa
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqA
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqB
+						<value>28.3G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3f</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>3</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi2
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi1
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni2
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni1
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp1
+						<value>2.4u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn2
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn1
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">va
+						<value>2.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vd
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>wk_ADPLL:PFD_line_tb:1</test>
+					<test>wk_ADPLL:PFD_line_tb:1:1</test>
+					<test>minimal_dt_optimization</test>
+				</disabledtests>
+				<allvarsdisabled>0</allvarsdisabled>
+				<runoptions>
+					<mode>Global Optimization
+						<runoption>referencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>startingstateorpoint
+							<value>Reference Point</value>
+						</runoption>
+						<runoption>startingstatename
+							<value>NONE</value>
+						</runoption>
+						<runoption>lazy
+							<value>1</value>
+						</runoption>
+						<runoption>tillsatisfied
+							<value>1</value>
+						</runoption>
+						<runoption>timelimit
+							<value></value>
+						</runoption>
+						<runoption>numpoints
+							<value></value>
+						</runoption>
+						<runoption>ptswithnoimprovement
+							<value></value>
+						</runoption>
+						<runoption>pointsAfterAllSpecsSatisfied
+							<value></value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 8 22:46:56 2022</timestamp>
+			<uuid>{dd94d440-c057-47cb-8605-441ba8dc2c27}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.47.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.47.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn98.it.auth.gr_kachatzis_224656125</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.47</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.47</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.47.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.47.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.48
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">dt_sweep
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>dt_sweep_tmpstate.413744411_Interactive.48</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413744411</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">minimal_dt_optimization
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>minimal_dt_optimization_wk_ADPLL:PFD_line_tb:1:1_state_Interactive.48</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">DTb
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>DTa
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqA
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqB
+						<value>28.3G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3f</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>3</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi2
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi1
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni2
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni1
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp1
+						<value>2.4u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn2
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn1
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">va
+						<value>2.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vd
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>wk_ADPLL:PFD_line_tb:1</test>
+					<test>wk_ADPLL:PFD_line_tb:1:1</test>
+					<test>minimal_dt_optimization</test>
+				</disabledtests>
+				<allvarsdisabled>0</allvarsdisabled>
+				<runoptions>
+					<mode>Global Optimization
+						<runoption>referencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>startingstateorpoint
+							<value>Reference Point</value>
+						</runoption>
+						<runoption>startingstatename
+							<value>NONE</value>
+						</runoption>
+						<runoption>lazy
+							<value>1</value>
+						</runoption>
+						<runoption>tillsatisfied
+							<value>1</value>
+						</runoption>
+						<runoption>timelimit
+							<value></value>
+						</runoption>
+						<runoption>numpoints
+							<value></value>
+						</runoption>
+						<runoption>ptswithnoimprovement
+							<value></value>
+						</runoption>
+						<runoption>pointsAfterAllSpecsSatisfied
+							<value></value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 8 22:50:17 2022</timestamp>
+			<uuid>{ae4cd092-05de-4ae1-84b8-09073aca8f5f}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.48.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.48.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn98.it.auth.gr_kachatzis_225017986</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.48</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.48</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.48.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.48.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.49
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">dt_sweep
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>dt_sweep_tmpstate.413744411_Interactive.49</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413744411</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">minimal_dt_optimization
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>minimal_dt_optimization_wk_ADPLL:PFD_line_tb:1:1_state_Interactive.49</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">DTb
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>DTa
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqA
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqB
+						<value>28.3G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3f</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>3</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi2
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi1
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni2
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni1
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp1
+						<value>2.4u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn2
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn1
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">va
+						<value>2.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vd
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>wk_ADPLL:PFD_line_tb:1</test>
+					<test>wk_ADPLL:PFD_line_tb:1:1</test>
+					<test>minimal_dt_optimization</test>
+				</disabledtests>
+				<allvarsdisabled>0</allvarsdisabled>
+				<runoptions>
+					<mode>Global Optimization
+						<runoption>referencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>startingstateorpoint
+							<value>Reference Point</value>
+						</runoption>
+						<runoption>startingstatename
+							<value>NONE</value>
+						</runoption>
+						<runoption>lazy
+							<value>1</value>
+						</runoption>
+						<runoption>tillsatisfied
+							<value>1</value>
+						</runoption>
+						<runoption>timelimit
+							<value></value>
+						</runoption>
+						<runoption>numpoints
+							<value></value>
+						</runoption>
+						<runoption>ptswithnoimprovement
+							<value></value>
+						</runoption>
+						<runoption>pointsAfterAllSpecsSatisfied
+							<value></value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 8 22:50:27 2022</timestamp>
+			<uuid>{c9634ad2-ec11-4b2e-918c-03b017a1a736}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.49.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.49.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn98.it.auth.gr_kachatzis_225027071</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.49</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.49</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.49.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.49.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.50
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">dt_sweep
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>dt_sweep_tmpstate.413744411_Interactive.50</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413744411</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">minimal_dt_optimization
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>minimal_dt_optimization_wk_ADPLL:PFD_line_tb:1:1_state_Interactive.50</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">DTb
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>DTa
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqA
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqB
+						<value>28.3G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3f</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>3</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi2
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi1
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni2
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni1
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp1
+						<value>2.4u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn2
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn1
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">va
+						<value>2.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vd
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>wk_ADPLL:PFD_line_tb:1</test>
+					<test>wk_ADPLL:PFD_line_tb:1:1</test>
+					<test>minimal_dt_optimization</test>
+				</disabledtests>
+				<allvarsdisabled>0</allvarsdisabled>
+				<runoptions>
+					<mode>Global Optimization
+						<runoption>referencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>startingstateorpoint
+							<value>Reference Point</value>
+						</runoption>
+						<runoption>startingstatename
+							<value>NONE</value>
+						</runoption>
+						<runoption>lazy
+							<value>1</value>
+						</runoption>
+						<runoption>tillsatisfied
+							<value>1</value>
+						</runoption>
+						<runoption>timelimit
+							<value></value>
+						</runoption>
+						<runoption>numpoints
+							<value></value>
+						</runoption>
+						<runoption>ptswithnoimprovement
+							<value></value>
+						</runoption>
+						<runoption>pointsAfterAllSpecsSatisfied
+							<value></value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 8 22:50:34 2022</timestamp>
+			<uuid>{e1f320cf-abcd-4a86-80e3-1339577cb8ca}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.50.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.50.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn98.it.auth.gr_kachatzis_225034839</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.50</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.50</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.50.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.50.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.51
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">dt_sweep
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>dt_sweep_tmpstate.413744411_Interactive.51</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413744411</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">minimal_dt_optimization
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>minimal_dt_optimization_wk_ADPLL:PFD_line_tb:1:1_state_Interactive.51</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">DTb
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>DTa
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqA
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqB
+						<value>28.3G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3f</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>3</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi2
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi1
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni2
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni1
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp1
+						<value>2.4u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn2
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn1
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">va
+						<value>2.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vd
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>wk_ADPLL:PFD_line_tb:1</test>
+					<test>wk_ADPLL:PFD_line_tb:1:1</test>
+					<test>minimal_dt_optimization</test>
+				</disabledtests>
+				<allvarsdisabled>0</allvarsdisabled>
+				<runoptions>
+					<mode>Global Optimization
+						<runoption>referencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>startingstateorpoint
+							<value>Reference Point</value>
+						</runoption>
+						<runoption>startingstatename
+							<value>NONE</value>
+						</runoption>
+						<runoption>lazy
+							<value>1</value>
+						</runoption>
+						<runoption>tillsatisfied
+							<value>1</value>
+						</runoption>
+						<runoption>timelimit
+							<value></value>
+						</runoption>
+						<runoption>numpoints
+							<value></value>
+						</runoption>
+						<runoption>ptswithnoimprovement
+							<value></value>
+						</runoption>
+						<runoption>pointsAfterAllSpecsSatisfied
+							<value></value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 8 22:50:44 2022</timestamp>
+			<uuid>{c8846f6c-1108-4d92-ac3c-4784896e4a07}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.51.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.51.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn98.it.auth.gr_kachatzis_225044205</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.51</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.51</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.51.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.51.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.52
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">dt_sweep
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>dt_sweep_tmpstate.413744411_Interactive.52</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413744411</value>
+							</option>
+						</origoptions>
+					</test>
+					<test enabled="1">minimal_dt_optimization
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>minimal_dt_optimization_wk_ADPLL:PFD_line_tb:1:1_state_Interactive.52</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</tooloptions>
+						<prerunscript>0</prerunscript>
+						<origoptions>
+							<option>cell
+								<value>PFD_line_tb</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:PFD_line_tb:1:1_state</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="1">DTb
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="0">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>DTa
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqA
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>freqB
+						<value>28.3G</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>3f</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>100n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>3</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi2
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wpi1
+						<value>970n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni2
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wni1
+						<value>580n</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp1
+						<value>2.4u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn2
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn1
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest enabled="1">dt_sweep</dependentTest>
+							<dependentTest enabled="1">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">va
+						<value>2.8</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vb
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vc
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">vd
+						<value>1</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">minimal_dt_optimization</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<disabledtests>
+					<test>wk_ADPLL:PFD_line_tb:1</test>
+					<test>wk_ADPLL:PFD_line_tb:1:1</test>
+					<test>minimal_dt_optimization</test>
+				</disabledtests>
+				<allvarsdisabled>0</allvarsdisabled>
+				<runoptions>
+					<mode>Global Optimization
+						<runoption>referencepoint
+							<value>0</value>
+						</runoption>
+						<runoption>startingstateorpoint
+							<value>Reference Point</value>
+						</runoption>
+						<runoption>startingstatename
+							<value>NONE</value>
+						</runoption>
+						<runoption>lazy
+							<value>1</value>
+						</runoption>
+						<runoption>tillsatisfied
+							<value>1</value>
+						</runoption>
+						<runoption>timelimit
+							<value></value>
+						</runoption>
+						<runoption>numpoints
+							<value></value>
+						</runoption>
+						<runoption>ptswithnoimprovement
+							<value></value>
+						</runoption>
+						<runoption>pointsAfterAllSpecsSatisfied
+							<value></value>
+						</runoption>
+					</mode>
+				</runoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 8 22:51:54 2022</timestamp>
+			<uuid>{cecf1334-da20-4da9-ac74-2eb0f4b9c0a6}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.52.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.52.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn98.it.auth.gr_kachatzis_225154071</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.52</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.52</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/PFD_line_tb/adexl/results/data/Interactive.52.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.52.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

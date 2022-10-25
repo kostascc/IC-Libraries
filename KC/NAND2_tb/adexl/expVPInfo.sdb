@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<setupdb version="6">expVPInfo
+	<active>Active Setup
+		<vars>
+			<var>F
+				<value>10G</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>CL
+				<value>7f</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD
+				<value>800m</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VSS
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>N
+				<value>13</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>WpWn
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wn
+				<value>N*100n</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wp
+				<value>WpWn*Wn</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+	</active>
+	<history>History</history>
+</setupdb>

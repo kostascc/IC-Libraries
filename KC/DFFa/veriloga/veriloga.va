@@ -1,0 +1,14 @@
+// VerilogA for KC, DFFa, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module DFFa(Q, Qn, D, CLK, RST, VDD, VSS);
+output Q, Qn;
+electrical Q, Qn, D, CLK, RST, VDD, VSS;
+input D, CLK, RST, VDD, VSS;
+
+
+
+
+endmodule

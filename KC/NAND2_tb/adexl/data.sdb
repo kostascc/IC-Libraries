@@ -1,0 +1,1734 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="1">FF_PRE
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">FS_PRE
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"fs_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">SF_PRE
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"sf_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">SS_PRE
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">FF_POST
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_post"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">FS_POST
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"fs_post"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">SF_POST
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"sf_post"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">SS_POST
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_post"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+				<active>
+					<mode>No Parasitics/LDE</mode>
+					<parameters>
+						<device>
+							<enabled>0</enabled>
+						</device>
+						<parasitic>
+							<enabled>0</enabled>
+						</parasitic>
+					</parameters>
+				</active>
+				<modes>
+					<mode>No Parasitics/LDE
+						<schematic>
+							<lib>KC</lib>
+							<cell>NAND2</cell>
+							<view>schematic</view>
+						</schematic>
+					</mode>
+					<mode>Schematic Estimates (Parasitics)
+						<schematic>
+							<lib>KC</lib>
+							<cell>NAND2</cell>
+							<view>schematic</view>
+						</schematic>
+						<parasitic>
+							<lib>KC</lib>
+							<cell>NAND2</cell>
+							<view>estimated</view>
+						</parasitic>
+					</mode>
+					<mode>Layout (Parasitics/LDE)
+						<schematic>
+							<lib>KC</lib>
+							<cell>NAND2</cell>
+							<view>schematic</view>
+						</schematic>
+						<parasitic>
+							<lib>KC</lib>
+							<cell>NAND2</cell>
+							<view>netlist_layout</view>
+						</parasitic>
+					</mode>
+					<mode>Extracted (Parasitics/LDE)
+						<schematic>
+							<lib>KC</lib>
+							<cell>NAND2</cell>
+							<view>schematic</view>
+						</schematic>
+						<parasitic>
+							<lib>KC</lib>
+							<cell>NAND2</cell>
+							<view>av_extracted_T70</view>
+						</parasitic>
+					</mode>
+				</modes>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">KC:NAND2_tb:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>NAND2_tb</value>
+					</option>
+					<option>lib
+						<value>KC</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>KC:NAND2_tb:1_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>NAND2_tb</value>
+					</option>
+					<option>lib
+						<value>KC</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>tmpstate.413847422</value>
+					</option>
+				</origoptions>
+			</test>
+		</tests>
+		<vars>
+			<var>F
+				<value>10G</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>CL
+				<value>7f</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VDD
+				<value>800m</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>VSS
+				<value>0</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>N
+				<value>13</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>WpWn
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wn
+				<value>N*100n</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Wp
+				<value>WpWn*Wn</value>
+				<dependentTests>
+					<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.0
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+						<active>
+							<mode>Extracted (Parasitics/LDE)</mode>
+							<parameters>
+								<device>
+									<enabled>0</enabled>
+								</device>
+								<parasitic>
+									<enabled>0</enabled>
+								</parasitic>
+							</parameters>
+						</active>
+						<modes>
+							<mode>No Parasitics/LDE
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+							</mode>
+							<mode>Schematic Estimates (Parasitics)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>estimated</view>
+								</parasitic>
+							</mode>
+							<mode>Layout (Parasitics/LDE)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>netlist_layout</view>
+								</parasitic>
+							</mode>
+							<mode>Extracted (Parasitics/LDE)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>av_extracted_T70</view>
+								</parasitic>
+							</mode>
+						</modes>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>KC:NAND2_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>NAND2_tb</value>
+							</option>
+							<option>lib
+								<value>KC</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>KC:NAND2_tb:1_tmpstate.413847422_Interactive.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>NAND2_tb</value>
+							</option>
+							<option>lib
+								<value>KC</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413847422</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>F
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>7f</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WpWn
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>N*100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>WpWn*Wn</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 6 18:24:23 2022</timestamp>
+			<uuid>{dbe66354-b8a3-4aa8-bf0f-45c9a504f31d}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/KC/NAND2_tb/adexl/results/data/Interactive.0.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn97.it.auth.gr_kachatzis_182423519</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/KC/NAND2_tb/adexl/results/data/Interactive.0</psfdir>
+			<simdir>$AXL_PROJECT_DIR/KC/NAND2_tb/adexl/results/data/Interactive.0</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/KC/NAND2_tb/adexl/results/data/Interactive.0.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.1
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+						<active>
+							<mode>Extracted (Parasitics/LDE)</mode>
+							<parameters>
+								<device>
+									<enabled>0</enabled>
+								</device>
+								<parasitic>
+									<enabled>0</enabled>
+								</parasitic>
+							</parameters>
+						</active>
+						<modes>
+							<mode>No Parasitics/LDE
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+							</mode>
+							<mode>Schematic Estimates (Parasitics)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>estimated</view>
+								</parasitic>
+							</mode>
+							<mode>Layout (Parasitics/LDE)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>netlist_layout</view>
+								</parasitic>
+							</mode>
+							<mode>Extracted (Parasitics/LDE)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>av_extracted_T70</view>
+								</parasitic>
+							</mode>
+						</modes>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">KC:NAND2_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>NAND2_tb</value>
+							</option>
+							<option>lib
+								<value>KC</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>KC:NAND2_tb:1_tmpstate.413847422_Interactive.1</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>NAND2_tb</value>
+							</option>
+							<option>lib
+								<value>KC</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413847422</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>F
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>7f</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WpWn
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>N*100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>WpWn*Wn</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 6 18:34:34 2022</timestamp>
+			<uuid>{1eb7888a-3597-457c-a6b9-7739a2b22a81}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/KC/NAND2_tb/adexl/results/data/Interactive.1.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.1.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn97.it.auth.gr_kachatzis_183434389</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/KC/NAND2_tb/adexl/results/data/Interactive.1</psfdir>
+			<simdir>$AXL_PROJECT_DIR/KC/NAND2_tb/adexl/results/data/Interactive.1</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/KC/NAND2_tb/adexl/results/data/Interactive.1.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.1.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.2
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+						<active>
+							<mode>Extracted (Parasitics/LDE)</mode>
+							<parameters>
+								<device>
+									<enabled>0</enabled>
+								</device>
+								<parasitic>
+									<enabled>0</enabled>
+								</parasitic>
+							</parameters>
+						</active>
+						<modes>
+							<mode>No Parasitics/LDE
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+							</mode>
+							<mode>Schematic Estimates (Parasitics)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>estimated</view>
+								</parasitic>
+							</mode>
+							<mode>Layout (Parasitics/LDE)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>netlist_layout</view>
+								</parasitic>
+							</mode>
+							<mode>Extracted (Parasitics/LDE)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>av_extracted_T70</view>
+								</parasitic>
+							</mode>
+						</modes>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">KC:NAND2_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>NAND2_tb</value>
+							</option>
+							<option>lib
+								<value>KC</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>KC:NAND2_tb:1_tmpstate.413847422_Interactive.2</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>NAND2_tb</value>
+							</option>
+							<option>lib
+								<value>KC</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413847422</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>F
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>7f</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WpWn
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>N*100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>WpWn*Wn</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 6 18:37:08 2022</timestamp>
+			<uuid>{4ac44c94-01c2-49c7-9462-5fd406909947}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/KC/NAND2_tb/adexl/results/data/Interactive.2.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.2.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn97.it.auth.gr_kachatzis_183708031</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/KC/NAND2_tb/adexl/results/data/Interactive.2</psfdir>
+			<simdir>$AXL_PROJECT_DIR/KC/NAND2_tb/adexl/results/data/Interactive.2</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/KC/NAND2_tb/adexl/results/data/Interactive.2.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.2.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.3
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="1">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+						<active>
+							<mode>No Parasitics/LDE</mode>
+							<parameters>
+								<device>
+									<enabled>0</enabled>
+								</device>
+								<parasitic>
+									<enabled>0</enabled>
+								</parasitic>
+							</parameters>
+						</active>
+						<modes>
+							<mode>No Parasitics/LDE
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+							</mode>
+							<mode>Schematic Estimates (Parasitics)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>estimated</view>
+								</parasitic>
+							</mode>
+							<mode>Layout (Parasitics/LDE)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>netlist_layout</view>
+								</parasitic>
+							</mode>
+							<mode>Extracted (Parasitics/LDE)
+								<schematic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>schematic</view>
+								</schematic>
+								<parasitic>
+									<lib>KC</lib>
+									<cell>NAND2</cell>
+									<view>av_extracted_T70</view>
+								</parasitic>
+							</mode>
+						</modes>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">KC:NAND2_tb:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>NAND2_tb</value>
+							</option>
+							<option>lib
+								<value>KC</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>KC:NAND2_tb:1_tmpstate.413847422_Interactive.3</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>NAND2_tb</value>
+							</option>
+							<option>lib
+								<value>KC</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.413847422</value>
+							</option>
+						</origoptions>
+					</test>
+				</tests>
+				<vars>
+					<var>F
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>CL
+						<value>7f</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VDD
+						<value>800m</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>VSS
+						<value>0</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>N
+						<value>13</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>WpWn
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wn
+						<value>N*100n</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Wp
+						<value>WpWn*Wn</value>
+						<dependentTests>
+							<dependentTest omitted="0">KC:NAND2_tb:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 6 18:46:52 2022</timestamp>
+			<uuid>{f151d732-ebc0-49b5-b172-ecf13ed616ed}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/KC/NAND2_tb/adexl/results/data/Interactive.3.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.3.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn97.it.auth.gr_kachatzis_184652495</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/KC/NAND2_tb/adexl/results/data/Interactive.3</psfdir>
+			<simdir>$AXL_PROJECT_DIR/KC/NAND2_tb/adexl/results/data/Interactive.3</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/KC/NAND2_tb/adexl/results/data/Interactive.3.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.3.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

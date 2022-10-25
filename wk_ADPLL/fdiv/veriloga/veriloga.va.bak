@@ -1,0 +1,9 @@
+// VerilogA for wk_ADPLL, fdiv, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module fdiv;
+
+
+endmodule

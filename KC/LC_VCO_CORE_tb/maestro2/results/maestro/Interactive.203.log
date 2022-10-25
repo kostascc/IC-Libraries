@@ -1,0 +1,177 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Apr  6 09:44:15 2022 
+Best design point: 1
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	FREQUENCY		30.97G	Near
+	PWR		2.852m	Yes
+	VOSCpp_SE		598m	Yes
+	VCM_output		444.4m	Near
+	output noise; dBc/Hz		Error	No
+	PN_1M		-81.38
+	PN_10M		-104.3
+Design parameters: 
+	wireopt		19
+	VDD		900m
+	nfinga		16
+	ibias		300u
+	fclk		28G
+	TRIM_CAP		1
+	FINE_TRIM_CAP		1
+
+Best design point: 2
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	FREQUENCY		30.69G	Near
+	PWR		2.85m	Yes
+	VOSCpp_SE		605.7m	Yes
+	VCM_output		445m	Near
+	output noise; dBc/Hz		Error	No
+	PN_1M		-81.65
+	PN_10M		-104.6
+Design parameters: 
+	wireopt		19
+	VDD		900m
+	nfinga		16
+	ibias		300u
+	fclk		28G
+	TRIM_CAP		1
+	FINE_TRIM_CAP		2
+
+Best design point: 3
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	FREQUENCY		30.41G	Near
+	PWR		2.847m	Yes
+	VOSCpp_SE		616m	Yes
+	VCM_output		444.8m	Near
+	output noise; dBc/Hz		Error	No
+	PN_1M		-81.89
+	PN_10M		-104.9
+Design parameters: 
+	wireopt		19
+	VDD		900m
+	nfinga		16
+	ibias		300u
+	fclk		28G
+	TRIM_CAP		1
+	FINE_TRIM_CAP		3
+
+Best design point: 4
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	FREQUENCY		30.14G	Near
+	PWR		2.843m	Yes
+	VOSCpp_SE		625m	Yes
+	VCM_output		445.8m	Near
+	output noise; dBc/Hz		Error	No
+	PN_1M		-82.22
+	PN_10M		-105.2
+Design parameters: 
+	wireopt		19
+	VDD		900m
+	nfinga		16
+	ibias		300u
+	fclk		28G
+	TRIM_CAP		1
+	FINE_TRIM_CAP		4
+
+Best design point: 5
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	FREQUENCY		29.88G	Near
+	PWR		2.839m	Yes
+	VOSCpp_SE		633.9m	Yes
+	VCM_output		446.5m	Near
+	output noise; dBc/Hz		Error	No
+	PN_1M		-82.48
+	PN_10M		-105.5
+Design parameters: 
+	wireopt		19
+	VDD		900m
+	nfinga		16
+	ibias		300u
+	fclk		28G
+	TRIM_CAP		1
+	FINE_TRIM_CAP		5
+
+Best design point: 6
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	FREQUENCY		29.63G	Near
+	PWR		2.835m	Yes
+	VOSCpp_SE		643m	Yes
+	VCM_output		447.2m	Near
+	output noise; dBc/Hz		Error	No
+	PN_1M		-82.78
+	PN_10M		-105.9
+Design parameters: 
+	wireopt		19
+	VDD		900m
+	nfinga		16
+	ibias		300u
+	fclk		28G
+	TRIM_CAP		1
+	FINE_TRIM_CAP		6
+
+Best design point: 7
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	FREQUENCY		29.39G	Yes
+	PWR		2.831m	Yes
+	VOSCpp_SE		652.1m	Yes
+	VCM_output		448.2m	Near
+	output noise; dBc/Hz		Error	No
+	PN_1M		-83.09
+	PN_10M		-106.2
+Design parameters: 
+	wireopt		19
+	VDD		900m
+	nfinga		16
+	ibias		300u
+	fclk		28G
+	TRIM_CAP		1
+	FINE_TRIM_CAP		7
+
+Best design point: 16
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	FREQUENCY		28.03G	Yes
+	PWR		2.83m	Yes
+	VOSCpp_SE		650.9m	Yes
+	VCM_output		449.2m	Near
+	output noise; dBc/Hz		Error	No
+	PN_1M		-83.71
+	PN_10M		-107.3
+Design parameters: 
+	wireopt		19
+	VDD		900m
+	nfinga		16
+	ibias		300u
+	fclk		28G
+	TRIM_CAP		2
+	FINE_TRIM_CAP		8
+
+Best design point: 24
+Design specs: 
+	wk_ADPLL:DCO_CORE_tb:1	corner	NOM_85 - 
+	FREQUENCY		27.01G	Yes
+	PWR		2.833m	Yes
+	VOSCpp_SE		643.7m	Yes
+	VCM_output		449.4m	Near
+	output noise; dBc/Hz		Error	No
+	PN_1M		-84.25
+	PN_10M		-108
+Design parameters: 
+	wireopt		19
+	VDD		900m
+	nfinga		16
+	ibias		300u
+	fclk		28G
+	TRIM_CAP		3
+	FINE_TRIM_CAP		8
+
+Received stop signal from user. 
+Interactive.203 completed. 
+Current time: Wed Apr  6 12:15:49 2022 

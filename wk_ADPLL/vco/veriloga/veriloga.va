@@ -1,0 +1,50 @@
+// Voltage controlled oscillator - Square wave output
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module vco(vb,Vctrl,Vout);
+
+input vb;
+input Vctrl;
+output Vout;
+electrical vb;
+electrical Vctrl,Vout;
+
+parameter real vmin =0.3;// minimum input voltage
+parameter real vmax =0.6;// maximum input voltage
+parameter real fmin =1.95G from (0:inf);// minimum output frequency
+parameter real fmax =3.05G from (fmin :inf);// maximum output frequency
+parameter real vl=0;// low output voltage
+parameter real trise =10p from (0:0.5/fmin );// rise time
+parameter real tfall =10p from (0:0.5/fmin );// fall time
+real vh ;// high output voltage
+parameter real tt=0.01/fmax from (0:inf);// output transition time
+parameter real ttol =1u/ fmax from (0:0.1/fmax );// time tolerance
+parameter integer steps_per_period = 32;
+real inst_freq , phase , dT;
+integer n, seed ;
+parameter real jitter =1p from [0:0.25/fmax );// period jitter
+
+analog begin
+@( initial_step ) inst_freq =fmin ; seed = -493;
+vh=V( vb );
+inst_freq = (V( Vctrl ) - vmin )*( fmax - fmin ) / (vmax - vmin ) +
+fmin;
+if ( inst_freq > fmax) inst_freq = fmax ;
+if ( inst_freq < fmin) inst_freq = fmin ;
+$bound_step (1.0 / ( steps_per_period * inst_freq ));
+inst_freq = inst_freq /(1 + dT* inst_freq );
+// phase is the integral of the freq modulo 2 pi
+phase = 2*`M_PI * idtmod ( inst_freq , 0.0, 1.0,-0.5);
+
+@( cross ( phase + `M_PI /2, +1, ttol ) or cross ( phase - `M_PI/2, +
+1, ttol )) begin
+dT = `M_SQRT2* jitter * $dist_normal (seed ,0, 1);
+n = ( phase >= -`M_PI /2) && ( phase < `M_PI /2);
+end
+
+V( Vout ) <+ transition (n ? vh : vl, 0, trise , tfall , tt);;
+end
+endmodule
+// Based on: https :// designers - guide .org/verilog -ams/ functional - blocks /vco/vco.va

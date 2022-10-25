@@ -1,0 +1,23 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Thu Oct  6 18:24:27 2022 
+Best design point: 1
+Design specs: 
+	KC:NAND2_tb:1	corner	Nominal - 
+	Tr		10.84p
+	Tf		11.53p
+Design parameters: 
+	F		10G
+	CL		7f
+	VDD		800m
+	VSS		0
+	N		13
+	WpWn		1
+	Wn		1.3u
+	Wp		1.3u
+
+Interactive.0
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.0 completed. 
+Current time: Thu Oct  6 18:26:40 2022 

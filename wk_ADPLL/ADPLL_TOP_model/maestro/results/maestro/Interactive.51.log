@@ -1,0 +1,23 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed May 18 10:51:30 2022 
+Best design point: 1
+Design specs: 
+	wk_ADPLL:ADPLL_TOP_model:1	corner	NOM_85 - 
+	average(freq(VT("/vco_out") "rising" ?xName "time" ?mode "auto" ?threshold 0.45))		28.08G
+Design parameters: 
+	wireopt		19
+	T_STOP		5u
+	MODE		1
+	fref		40M
+	fmin		26.5G
+	fmax		29G
+	vdd		900m
+	vss		0
+	FDIV_N		700
+
+Interactive.51
+Number of points completed: 1
+Number of simulation errors: 0
+Interactive.51 completed. 
+Current time: Wed May 18 10:56:47 2022 

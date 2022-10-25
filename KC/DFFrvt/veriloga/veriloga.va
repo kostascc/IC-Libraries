@@ -1,0 +1,37 @@
+// VerilogA for myLib, DFF, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module DFFrvt(Q, QB, Gnd, Vdd, Clk, D, R);
+output Q;
+electrical Q;
+output QB;
+electrical QB;
+inout Gnd;
+electrical Gnd;
+inout Vdd;
+electrical Vdd;
+input Clk;
+electrical Clk;
+input D;
+electrical D;
+input R;
+electrical R;
+integer state;
+real Vt;
+real Vh;
+real Vl;
+parameter integer dir = +1 from [-1:+1] exclude 0;
+ // if dir=+1, rising clock edge triggers flip flop
+ // if dir=-1, falling clock edge triggers flip flop 
+analog begin
+Vh=V(Vdd);
+Vl=V(Gnd);
+Vt=(Vh-Vl)/2;
+ @(cross(V(Clk) - Vt, dir))
+ state = (V(D) > Vt);
+ V(Q) <+ transition (( state ? Vh : Vl ), 0, 10p, 10p);
+ V(QB) <+ transition (( state ? Vl : Vh ), 0, 10p, 10p);
+end
+endmodule

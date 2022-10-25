@@ -1,0 +1,9 @@
+// VerilogA for KC, DFFa, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module DFFa;
+
+
+endmodule

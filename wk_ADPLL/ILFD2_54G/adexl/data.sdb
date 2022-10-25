@@ -1,0 +1,5619 @@
+<?xml version="1.0"?>
+<setupdb version="6">data
+	<active>Active Setup
+		<corners>
+			<corner enabled="1">_default</corner>
+			<corner enabled="0">FF_PRE
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">FS_PRE
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"fs_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">SF_PRE
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"sf_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">SS_PRE
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">FF_POST
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_post"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">FS_POST
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"fs_post"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">SF_POST
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"sf_post"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">SS_POST
+				<models>
+					<model enabled="1">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_post"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="0">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>wk_ADPLL:ILFD2_54G:2
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>ILFD2_54G</value>
+					</option>
+					<option>lib
+						<value>wk_ADPLL</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>wk_ADPLL:ILFD2_54G:2_active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>ILFD2_54G</value>
+					</option>
+					<option>lib
+						<value>wk_ADPLL</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>state
+						<value>tmpstate.412967474</value>
+					</option>
+				</origoptions>
+				<outputs>
+					<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+						<evalType>point</evalType>
+					</output>
+					<output>/I17/MINUS
+						<evalType>point</evalType>
+					</output>
+					<output>/Va1
+						<evalType>point</evalType>
+					</output>
+					<output>/Va2
+						<evalType>point</evalType>
+					</output>
+					<output>nil
+						<evalType>point</evalType>
+					</output>
+					<output>/Vb1
+						<evalType>point</evalType>
+					</output>
+					<output>/Vb2
+						<evalType>point</evalType>
+					</output>
+					<output>AVGFa
+						<evalType>point</evalType>
+					</output>
+					<output>Fa
+						<evalType>point</evalType>
+					</output>
+					<output>Fb
+						<units></units>
+						<significantDigits>0</significantDigits>
+						<notation></notation>
+						<suffix></suffix>
+						<evalType>point</evalType>
+					</output>
+					<output>AVGFb
+						<units></units>
+						<significantDigits>0</significantDigits>
+						<notation></notation>
+						<suffix></suffix>
+						<evalType>point</evalType>
+					</output>
+					<output>"/Vsw1"
+						<evalType>point</evalType>
+					</output>
+					<output>/AA
+						<evalType>point</evalType>
+					</output>
+					<output>/BB
+						<evalType>point</evalType>
+					</output>
+					<output>/Vsw1
+						<evalType>point</evalType>
+					</output>
+					<output>/Vsw2
+						<evalType>point</evalType>
+					</output>
+					<output>/Vsw3
+						<evalType>point</evalType>
+					</output>
+					<output>/Vsw4
+						<evalType>point</evalType>
+					</output>
+					<output>/Vsw5
+						<evalType>point</evalType>
+					</output>
+					<output>/Vsw6
+						<evalType>point</evalType>
+					</output>
+					<output>PRIM
+						<evalType>point</evalType>
+					</output>
+					<output>/K0/s1
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+			</test>
+		</tests>
+		<vars>
+			<var enabled="0">C
+				<value>46.5f</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">F
+				<value>110G</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>I
+				<value>3.2m</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">L
+				<value>65p</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Q
+				<value>50</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Wn
+				<value>2.5u</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Wp
+				<value>1u</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">freqOUT
+				<value>10G</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">tf
+				<value>0.08</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">tr
+				<value>0.08</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">Finj
+				<value></value>
+				<dependentTests>
+					<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>C1
+				<value>25f</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>C2
+				<value>30f</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>F1
+				<value>56G</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>F2
+				<value>28G</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L1
+				<value>220p</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>L2
+				<value>210p</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W1
+				<value>12u</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>W2
+				<value>15u</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="0">NA
+				<value></value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Ws1
+				<value>1*Ws</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Ws2
+				<value>2*Ws</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Ws3
+				<value>4*Ws</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Ws4
+				<value>8*Ws</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Ws5
+				<value>16*Ws</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Ws6
+				<value>32*Ws</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Ws
+				<value>0.3u</value>
+			</var>
+		</vars>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<plottingoptions>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>waveformtemplate
+				<value></value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.286
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>wk_ADPLL:ILFD2_54G:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:ILFD2_54G:2_tmpstate.412967474_Interactive.286</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.412967474</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+								<evalType>point</evalType>
+							</output>
+							<output>/I17/MINUS
+								<evalType>point</evalType>
+							</output>
+							<output>/Va1
+								<evalType>point</evalType>
+							</output>
+							<output>/Va2
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFa
+								<evalType>point</evalType>
+							</output>
+							<output>Fa
+								<evalType>point</evalType>
+							</output>
+							<output>Fb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>"/Vsw1"
+								<evalType>point</evalType>
+							</output>
+							<output>/AA
+								<evalType>point</evalType>
+							</output>
+							<output>/BB
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw3
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw4
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw5
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw6
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C
+						<value>46.5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">F
+						<value>110G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>3.1m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">L
+						<value>65p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Q
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wn
+						<value>2.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wp
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">freqOUT
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Finj
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C1
+						<value>20f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>30f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>56G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>220p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>210p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>11u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>15u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">NA
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws1
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws2
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws3
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws4
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws5
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws6
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 21 01:15:55 2022</timestamp>
+			<uuid>{5bd16903-ec1d-4072-987f-4a05f95cdb45}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.286.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.286.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn96.it.auth.gr_kachatzis_011555043</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.286</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.286</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.286.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.286.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.287
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>wk_ADPLL:ILFD2_54G:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:ILFD2_54G:2_tmpstate.412967474_Interactive.287</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.412967474</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+								<evalType>point</evalType>
+							</output>
+							<output>/I17/MINUS
+								<evalType>point</evalType>
+							</output>
+							<output>/Va1
+								<evalType>point</evalType>
+							</output>
+							<output>/Va2
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFa
+								<evalType>point</evalType>
+							</output>
+							<output>Fa
+								<evalType>point</evalType>
+							</output>
+							<output>Fb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>"/Vsw1"
+								<evalType>point</evalType>
+							</output>
+							<output>/AA
+								<evalType>point</evalType>
+							</output>
+							<output>/BB
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw3
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw4
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw5
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw6
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C
+						<value>46.5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">F
+						<value>110G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>3.2m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">L
+						<value>65p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Q
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wn
+						<value>2.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wp
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">freqOUT
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Finj
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C1
+						<value>20f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>30f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>56G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>220p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>210p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>15u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">NA
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws1
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws2
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws3
+						<value>3u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws4
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws5
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws6
+						<value>3u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 21 01:23:58 2022</timestamp>
+			<uuid>{99a8e4a0-43d6-43d5-9107-ef46f7f86387}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.287.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.287.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn96.it.auth.gr_kachatzis_012358191</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.287</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.287</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.287.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.287.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.288
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>wk_ADPLL:ILFD2_54G:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:ILFD2_54G:2_tmpstate.412967474_Interactive.288</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.412967474</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+								<evalType>point</evalType>
+							</output>
+							<output>/I17/MINUS
+								<evalType>point</evalType>
+							</output>
+							<output>/Va1
+								<evalType>point</evalType>
+							</output>
+							<output>/Va2
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFa
+								<evalType>point</evalType>
+							</output>
+							<output>Fa
+								<evalType>point</evalType>
+							</output>
+							<output>Fb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>"/Vsw1"
+								<evalType>point</evalType>
+							</output>
+							<output>/AA
+								<evalType>point</evalType>
+							</output>
+							<output>/BB
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw3
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw4
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw5
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw6
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C
+						<value>46.5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">F
+						<value>110G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>3.2m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">L
+						<value>65p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Q
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wn
+						<value>2.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wp
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">freqOUT
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Finj
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C1
+						<value>20f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>30f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>56G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>220p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>210p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>15u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">NA
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws1
+						<value>0.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws2
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws4
+						<value>4u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws5
+						<value>8u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws6
+						<value>16u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 21 02:18:46 2022</timestamp>
+			<uuid>{a3968058-c857-455d-8c20-a85fe9e9a8f5}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.288.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.288.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn96.it.auth.gr_kachatzis_021846040</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.288</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.288</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.288.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.288.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.289
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>wk_ADPLL:ILFD2_54G:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:ILFD2_54G:2_tmpstate.412967474_Interactive.289</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.412967474</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+								<evalType>point</evalType>
+							</output>
+							<output>/I17/MINUS
+								<evalType>point</evalType>
+							</output>
+							<output>/Va1
+								<evalType>point</evalType>
+							</output>
+							<output>/Va2
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFa
+								<evalType>point</evalType>
+							</output>
+							<output>Fa
+								<evalType>point</evalType>
+							</output>
+							<output>Fb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>"/Vsw1"
+								<evalType>point</evalType>
+							</output>
+							<output>/AA
+								<evalType>point</evalType>
+							</output>
+							<output>/BB
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw3
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw4
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw5
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw6
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C
+						<value>46.5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">F
+						<value>110G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>3.2m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">L
+						<value>65p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Q
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wn
+						<value>2.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wp
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">freqOUT
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Finj
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C1
+						<value>20f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>30f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>56G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>220p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>210p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>10u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>15u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">NA
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws1
+						<value>0.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws2
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws3
+						<value>2u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws4
+						<value>4u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws5
+						<value>8u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws6
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 21 02:21:56 2022</timestamp>
+			<uuid>{40387739-e97b-4450-99e1-379d84077d02}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.289.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.289.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn96.it.auth.gr_kachatzis_022156855</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.289</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.289</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.289.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.289.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.290
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>wk_ADPLL:ILFD2_54G:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:ILFD2_54G:2_tmpstate.412967474_Interactive.290</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.412967474</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+								<evalType>point</evalType>
+							</output>
+							<output>/I17/MINUS
+								<evalType>point</evalType>
+							</output>
+							<output>/Va1
+								<evalType>point</evalType>
+							</output>
+							<output>/Va2
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFa
+								<evalType>point</evalType>
+							</output>
+							<output>Fa
+								<evalType>point</evalType>
+							</output>
+							<output>Fb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>"/Vsw1"
+								<evalType>point</evalType>
+							</output>
+							<output>/AA
+								<evalType>point</evalType>
+							</output>
+							<output>/BB
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw3
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw4
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw5
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw6
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C
+						<value>46.5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">F
+						<value>110G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>3.2m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">L
+						<value>65p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Q
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wn
+						<value>2.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wp
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">freqOUT
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Finj
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C1
+						<value>25f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>30f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>56G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>220p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>210p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>12u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>15u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">NA
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws1
+						<value>1*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws2
+						<value>2*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws3
+						<value>4*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws4
+						<value>8*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws5
+						<value>16*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws6
+						<value>32*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws
+						<value>0.3u</value>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 21 02:29:39 2022</timestamp>
+			<uuid>{08bf97b0-97dc-484f-b796-fc2180d92e8a}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.290.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.290.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn96.it.auth.gr_kachatzis_022939792</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.290</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.290</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.290.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.290.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.291
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>wk_ADPLL:ILFD2_54G:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:ILFD2_54G:2_tmpstate.412967474_Interactive.291</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.412967474</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+								<evalType>point</evalType>
+							</output>
+							<output>/I17/MINUS
+								<evalType>point</evalType>
+							</output>
+							<output>/Va1
+								<evalType>point</evalType>
+							</output>
+							<output>/Va2
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFa
+								<evalType>point</evalType>
+							</output>
+							<output>Fa
+								<evalType>point</evalType>
+							</output>
+							<output>Fb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>"/Vsw1"
+								<evalType>point</evalType>
+							</output>
+							<output>/AA
+								<evalType>point</evalType>
+							</output>
+							<output>/BB
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw3
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw4
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw5
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw6
+								<evalType>point</evalType>
+							</output>
+							<output>/K0/p1
+								<evalType>point</evalType>
+							</output>
+							<output>/K1/p1
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C
+						<value>46.5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">F
+						<value>110G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>3.2m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">L
+						<value>65p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Q
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wn
+						<value>2.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wp
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">freqOUT
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Finj
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C1
+						<value>25f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>30f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>56G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>220p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>210p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>12u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>15u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">NA
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws1
+						<value>1*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws2
+						<value>2*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws3
+						<value>4*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws4
+						<value>8*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws5
+						<value>16*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws6
+						<value>32*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws
+						<value>0.3u</value>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 21 02:45:10 2022</timestamp>
+			<uuid>{5dac329e-db0b-4bde-a3a5-6640596395a3}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.291.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.291.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn96.it.auth.gr_kachatzis_024510894</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.291</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.291</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.291.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.291.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.292
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>wk_ADPLL:ILFD2_54G:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:ILFD2_54G:2_tmpstate.412967474_Interactive.292</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.412967474</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+								<evalType>point</evalType>
+							</output>
+							<output>/I17/MINUS
+								<evalType>point</evalType>
+							</output>
+							<output>/Va1
+								<evalType>point</evalType>
+							</output>
+							<output>/Va2
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFa
+								<evalType>point</evalType>
+							</output>
+							<output>Fa
+								<evalType>point</evalType>
+							</output>
+							<output>Fb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>"/Vsw1"
+								<evalType>point</evalType>
+							</output>
+							<output>/AA
+								<evalType>point</evalType>
+							</output>
+							<output>/BB
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw3
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw4
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw5
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw6
+								<evalType>point</evalType>
+							</output>
+							<output>/K0/p1
+								<evalType>point</evalType>
+							</output>
+							<output>/K1/p1
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C
+						<value>46.5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">F
+						<value>110G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>3.2m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">L
+						<value>65p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Q
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wn
+						<value>2.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wp
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">freqOUT
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Finj
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C1
+						<value>25f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>30f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>56G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>220p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>210p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>12u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>15u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">NA
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws1
+						<value>1*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws2
+						<value>2*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws3
+						<value>4*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws4
+						<value>8*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws5
+						<value>16*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws6
+						<value>32*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws
+						<value>0.3u</value>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 21 02:58:57 2022</timestamp>
+			<uuid>{aca77dd5-baf0-4890-849d-2eb3b4627b1f}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.292.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.292.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn96.it.auth.gr_kachatzis_025857895</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.292</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.292</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.292.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.292.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.293
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>wk_ADPLL:ILFD2_54G:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:ILFD2_54G:2_tmpstate.412967474_Interactive.293</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.412967474</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+								<evalType>point</evalType>
+							</output>
+							<output>/I17/MINUS
+								<evalType>point</evalType>
+							</output>
+							<output>/Va1
+								<evalType>point</evalType>
+							</output>
+							<output>/Va2
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFa
+								<evalType>point</evalType>
+							</output>
+							<output>Fa
+								<evalType>point</evalType>
+							</output>
+							<output>Fb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>"/Vsw1"
+								<evalType>point</evalType>
+							</output>
+							<output>/AA
+								<evalType>point</evalType>
+							</output>
+							<output>/BB
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw3
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw4
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw5
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw6
+								<evalType>point</evalType>
+							</output>
+							<output>PRIM
+								<evalType>point</evalType>
+							</output>
+							<output>/K0/s1
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C
+						<value>46.5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">F
+						<value>110G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>3.2m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">L
+						<value>65p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Q
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wn
+						<value>2.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wp
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">freqOUT
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Finj
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C1
+						<value>25f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>30f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>56G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>220p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>210p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>12u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>15u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">NA
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws1
+						<value>1*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws2
+						<value>2*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws3
+						<value>4*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws4
+						<value>8*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws5
+						<value>16*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws6
+						<value>32*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws
+						<value>0.3u</value>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 21 03:03:35 2022</timestamp>
+			<uuid>{f6352336-9ae7-4869-b854-8ee49a47f2e8}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.293.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.293.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn96.it.auth.gr_kachatzis_030335431</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.293</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.293</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.293.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.293.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.294
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>wk_ADPLL:ILFD2_54G:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:ILFD2_54G:2_tmpstate.412967474_Interactive.294</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.412967474</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+								<evalType>point</evalType>
+							</output>
+							<output>/I17/MINUS
+								<evalType>point</evalType>
+							</output>
+							<output>/Va1
+								<evalType>point</evalType>
+							</output>
+							<output>/Va2
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFa
+								<evalType>point</evalType>
+							</output>
+							<output>Fa
+								<evalType>point</evalType>
+							</output>
+							<output>Fb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>"/Vsw1"
+								<evalType>point</evalType>
+							</output>
+							<output>/AA
+								<evalType>point</evalType>
+							</output>
+							<output>/BB
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw3
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw4
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw5
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw6
+								<evalType>point</evalType>
+							</output>
+							<output>PRIM
+								<evalType>point</evalType>
+							</output>
+							<output>/K0/s1
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C
+						<value>46.5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">F
+						<value>110G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>3.2m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">L
+						<value>65p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Q
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wn
+						<value>2.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wp
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">freqOUT
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Finj
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C1
+						<value>25f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>30f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>56G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>220p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>210p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>12u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>15u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">NA
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws1
+						<value>1*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws2
+						<value>2*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws3
+						<value>4*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws4
+						<value>8*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws5
+						<value>16*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws6
+						<value>32*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws
+						<value>0.3u</value>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 21 03:05:32 2022</timestamp>
+			<uuid>{0fb7ca67-3933-4dc7-9ad2-2cebd9fdb655}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.294.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.294.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn96.it.auth.gr_kachatzis_030532759</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.294</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.294</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.294.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.294.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="adexl" roOrView="view">Interactive.295
+			<checkpoint>
+				<corners>
+					<corner enabled="1">_default</corner>
+					<corner enabled="0">FF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_PRE
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"fs_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SF_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"sf_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_POST
+						<models>
+							<model enabled="1">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_post"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="0">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>wk_ADPLL:ILFD2_54G:2
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>wk_ADPLL:ILFD2_54G:2_tmpstate.412967474_Interactive.295</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>ILFD2_54G</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>tmpstate.412967474</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>average(freq(VT("/Vdivp") "rising" ?xName "time" ?mode "auto" ?threshold 0.4))
+								<evalType>point</evalType>
+							</output>
+							<output>/I17/MINUS
+								<evalType>point</evalType>
+							</output>
+							<output>/Va1
+								<evalType>point</evalType>
+							</output>
+							<output>/Va2
+								<evalType>point</evalType>
+							</output>
+							<output>nil
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vb2
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFa
+								<evalType>point</evalType>
+							</output>
+							<output>Fa
+								<evalType>point</evalType>
+							</output>
+							<output>Fb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>AVGFb
+								<units></units>
+								<significantDigits>0</significantDigits>
+								<notation></notation>
+								<suffix></suffix>
+								<evalType>point</evalType>
+							</output>
+							<output>"/Vsw1"
+								<evalType>point</evalType>
+							</output>
+							<output>/AA
+								<evalType>point</evalType>
+							</output>
+							<output>/BB
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw2
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw3
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw4
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw5
+								<evalType>point</evalType>
+							</output>
+							<output>/Vsw6
+								<evalType>point</evalType>
+							</output>
+							<output>PRIM
+								<evalType>point</evalType>
+							</output>
+							<output>/K0/s1
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<vars>
+					<var enabled="0">C
+						<value>46.5f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">F
+						<value>110G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>3.2m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">L
+						<value>65p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Q
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wn
+						<value>2.5u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Wp
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">freqOUT
+						<value>10G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tf
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">tr
+						<value>0.08</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">Finj
+						<value></value>
+						<dependentTests>
+							<dependentTest enabled="0" omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C1
+						<value>25f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>C2
+						<value>30f</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F1
+						<value>56G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>F2
+						<value>28G</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L1
+						<value>220p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L2
+						<value>210p</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W1
+						<value>12u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>W2
+						<value>15u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="0">NA
+						<value></value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws1
+						<value>1*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws2
+						<value>2*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws3
+						<value>4*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws4
+						<value>8*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws5
+						<value>16*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws6
+						<value>32*Ws</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:ILFD2_54G:2</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Ws
+						<value>0.3u</value>
+					</var>
+				</vars>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<plottingoptions>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value></value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Oct 21 03:17:35 2022</timestamp>
+			<uuid>{e9b1764d-74b6-443f-a771-40ec22dcc88e}</uuid>
+			<resultsname>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.295.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/data/Interactive.295.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/cn96.it.auth.gr_kachatzis_031735187</localpsfdir>
+			<psfdir>/mnt/scratch_b/users/k/kachatzis/simulation/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.295</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.295</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/mnt/scratch_b/users/k/kachatzis/prj/virtuoso-6.1.8-2019-20/wk_ADPLL/ILFD2_54G/adexl/results/data/Interactive.295.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/data/Interactive.295.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>
