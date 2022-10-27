@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 09/24/2018 21:00 (ip-172-18-22-224) $
 \o Sub version:		sub-version  p015 
-\o Arguments:		-unmapped -mpssession virtuoso8 -mpshost rhel 
+\o Arguments:		-unmapped -mpssession virtuoso62 -mpshost rhel 
 \o Working Directory:	rhel:/home/ic/workspace
 \o 64-bit offsets
 \o Qt version: 		5.9.1
@@ -12,34 +12,34 @@
 \o MPS service: map window
 \o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
-\w Warning: The directory: '/root/workspace/KC' does not exist
-\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'KC'.
-\w Warning: The directory: '/root/workspace/wk_ADPLL' does not exist
-\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'wk_ADPLL'.
 \w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
 \w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
-\a nrResizeWindow(cdsLibManager list(74 27 602 491))
+\a nrResizeWindow(cdsLibManager list(1970 50 602 491))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(2929 247 602 491))
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)
+\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
+\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
 \a nrSetWindowVisibility(cdsLibManager "show")
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
+\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
+\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
+\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(1920 0 1920 1043))
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)
-\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
-\o DB was auto refreshed.
-\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
-\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
-\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
-\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
-\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
-\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
-\w Warning: The directory: '/mnt/apps/prebuilt/eda/cadence/2018-2019/RHELx86/ASSURA/tools.lnx86/assura/etc/avtech/avTech' does not exist
-\w 	but was defined in libFile '/home/ic/workspace/cds.lib' for Lib 'avTech'.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a nrResizeWindow(cdsLibManager list(2929 247 602 491))
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

@@ -11,11 +11,11 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = Interactive.327
-	Results DB   = /home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.327.rdb
-	Results Dir  = /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.327/1/wk_ADPLL:VCO_VI:2
-	Results Loc  = /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro
-	Project Dir  = /root/simulation
+	State Name   = Interactive.341
+	Results DB   = /home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.341.rdb
+	Results Dir  = /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.341/1/wk_ADPLL:VCO_VI:1
+	Results Loc  = /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro
+	Project Dir  = /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation
 	Setup DB loc = /home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1
 	File Encoding = 0
 
@@ -33,60 +33,52 @@ variable persistNewList redefined
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [
-          wk_ADPLL:VCO_VI:2 ].
+*Info*    Run start for Point ID (4 1) on testbench [
+          wk_ADPLL:VCO_VI:1 ].
 
 Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var I = ""
-Setting var NA = ""
+Setting var C = "1"
+Setting var I = "2m"
+Setting var NA = "0"
 Setting var W1 = "13u"
-Setting var Ws = "0.4u"
-Setting var Ws1 = ""
-Setting var Ws2 = ""
-Setting var Ws3 = ""
-Setting var Ws4 = ""
-Setting var Ws5 = ""
-Setting var Ws6 = ""
+Setting var Ws = "400n"
+Setting var Ws1 = "1*Ws"
+Setting var Ws2 = "2*Ws"
+Setting var Ws3 = "4*Ws"
+Setting var Ws4 = "8*Ws"
+Setting var Ws5 = "16*Ws"
+Setting var Ws6 = "32*Ws"
+Setting var Ws7 = "400n"
 Setting temp(T) = 27
+Setting temp(T) = 85
 
 *Info*    Netlist Directory =
-          /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.327/1/wk_ADPLL:VCO_VI:2/netlist
+          /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.341/1/wk_ADPLL:VCO_VI:1/netlist
 
 
 *Info*    Data Directory    =
-          /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.327/1/wk_ADPLL:VCO_VI:2
+          /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.341/1/wk_ADPLL:VCO_VI:1
 
 
-*Info*    Creating Netlist for Point ID (1 1)
+*Info*    Creating Netlist for Point ID (4 1)
 
 generate netlist...
-Initializing the control file using cp:
-    cp /opt/IC618/tools.lnx86/dfII/etc/si/control.spectre /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.327/1/wk_ADPLL:VCO_VI:2/netlist/control
-Copying Spectre source file 'spectre.inp'
-Copying Spectre command file 'spectre.sim'
-Begin Incremental Netlisting Oct 25 00:34:58 2022
-End netlisting Oct 25 00:34:58 2022
+Begin Incremental Netlisting Oct 26 21:18:30 2022
+End netlisting Oct 26 21:18:30 2022
 
-Netlisting Statistics:
-	Number of components:   31
-
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
-*Warning*	Additional design variables have been found during netlisting.
- 		A value is necessary for successful simulation.
-		To simulate, assign values to all design variables with 
-		the Variables->Edit... menu, and use "Netlist and Run".
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ wk_ADPLL:VCO_VI:2 ] for
-          Point ID (1 1).
+*Info*    Running simulation on testbench [ wk_ADPLL:VCO_VI:1 ] for
+          Point ID (4 1).
 
-Delete psf data in /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.327/1/wk_ADPLL:VCO_VI:2/psf.
+Delete psf data in /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.341/1/wk_ADPLL:VCO_VI:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -95,97 +87,6 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
-        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
-        to view the simulation run log.
-
-*Error*   Error ID  = 5011
-*Error*   Error Msg = Simulator failed to complete the simulation.
-
-          Error found by spectre during circuit read-in.
-Error found
-          by spectre during circuit read-in.
-ERROR (SFE-23):
-          "input.scs" 32: The instance `K0' is referencing an
-          undefined model or subcircuit, `stk_xformer_mmw'. Either
-          include the file containi
-ng the definition of
-          `stk_xformer_mmw', or define `stk_xformer_mmw' before
-          running the simulation.
-ERROR (SFE-23): "input.scs" 34: The
-          instance `K1' is referencing an undefined model or
-          subcircuit, `stk_xformer_mmw'. Either include the file
-          containi
-ng the definition of `stk_xformer_mmw', or define
-          `stk_xformer_mmw' before running the simulation.
-Error
-          found by spectre during hierarchy flattening.
-Error found
-          by spectre during hierarchy flattening.
-ERROR (SFE-1997):
-          "input.scs" 64: I18: parameter `dc': Cannot run the
-          simulation because parameter 'I' has been used but no value
-          has been assigned to
- it. Assign a value to the parameter
-          and rerun the simulation.
-ERROR (SFE-1997): "input.scs" 65:
-          N47: parameter `nf': Cannot run the simulation because
-          parameter 'Ws3' has been used but no value has been
-          assigned 
-to it. Assign a value to the parameter and rerun
-          the simulation.
-ERROR (SFE-1997): "input.scs" 65: N47:
-          parameter `nf': Cannot run the simulation because parameter
-          'Ws3' has been used but no value has been assigned 
-to it.
-          Assign a value to the parameter and rerun the
-          simulation.
-ERROR (SFE-1997): "input.scs" 65: N47:
-          parameter `nf': Cannot run the simulation because parameter
-          'Ws3' has been used but no value has been assigned 
-to it.
-          Assign a value to the parameter and rerun the
-          simulation.
-ERROR (SFE-1997): "input.scs" 65: N47:
-          parameter `nf': Cannot run the simulation because parameter
-          'Ws3' has been used but no value has been assigned 
-to it.
-          Assign a value to the parameter and rerun the
-          simulation.
-ERROR (SFE-1997): "input.scs" 65: N47:
-          parameter `nf': Cannot run the simulation because parameter
-          'Ws3' has been used but no value has been assigned 
-to it.
-          Assign a value to the parameter and rerun the
-          simulation.
-ERROR (SFE-1997): "input.scs" 65: N47:
-          parameter `ad': Cannot run the simulation because parameter
-          'Ws3' has been used but no value has been assigned 
-to it.
-          Assign a value to the parameter and rerun the
-          simulation.
-ERROR (SFE-1997): "input.scs" 65: N47:
-          parameter `as': Cannot run the simulation because parameter
-          'Ws3' has been used but no value has been assigned 
-to it.
-          Assign a value to the parameter and rerun the
-          simulation.
-ERROR (SFE-1997): "input.scs" 65: N47:
-          parameter `par_nf': Cannot run the simulation because
-          parameter 'Ws3' has been used but no value has been
-          assig
-ned to it. Assign a value to the parameter and rerun
-          the simulation.
-ERROR (SFE-1997): "input.scs" 65: N47:
-          parameter `w': Cannot run the simulation because parameter
-          'Ws3' has been used but no value has been assigned t
-o it.
-          Assign a value to the parameter and rerun the simulation.
-
-
-
-
-
 Simulation design variables differ from those on the cellView,
 they have been saved in the file "/tmp/saved-design-variables".
 To save future changes, copy variables to cellView before exiting.

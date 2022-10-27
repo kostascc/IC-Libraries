@@ -1,0 +1,44 @@
+adexl.icrpStartup	binaryName	string	"virtuoso -nocdsinit"
+adexl.monte	samplingMethod	string	"random"
+asimenv	loadWavescan	boolean	nil
+asimenv	showConvertNotifyDialog	boolean	nil
+asimenv.startup	projectDir	string	"/root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation"
+dpt	unclusteredShapeColor	cyclic	"asIs"
+graphic	defaultToolName	string	"Virtuoso"
+graphic	defaultNewLibName	string	"wk_ADPLL"
+graphic	defaultOpenCellName	string	"VCO_VI"
+graphic	netExprDisplay	string	"value only"
+graphic	defaultOpenLibName	string	"wk_ADPLL"
+graphic	defaultNewCellName	string	"VCO_VI"
+graphic	defaultNewViewName	string	"adexl"
+graphic	defaultOpenViewName	string	"schematic"
+hspiceD.envOpts	netlistModelFileFirst	boolean	t
+hspiceD.opts	ADDITIONAL_ARGUMENTS	string	"ivthn=300e-9 ivthp=70e-9"
+layout	weCWWidthMode	cyclic	"constraints"
+layout	vdrHighVoltagePurpose	string	"hi"
+layout	vdrLowVoltagePurpose	string	"lo"
+layout	viaParamCalcMode	cyclic	"minRules"
+layout	drdBatchScopeSpecifiedArea	string	"((0.0 -293.4) (1729.8 887.0))"
+layoutXL	lxEvalCDFCallbacks	boolean	t
+layoutXL	lxGetSignifDigits	int	10
+layoutXL	ciwWindow	string	"((737.0 2.0) (1920.0 283.0))"
+p2t	trunkSetupHorTrunkLayer	string	"PC"
+p2t	trunkSetupVerTrunkWidth	float	0.018
+p2t	trunkSetupVerTrunkLayer	string	"PC"
+p2t	trunkSetupHorTrunkWidth	float	0.018
+p2t	horNonGateTwigLayer	string	"PC"
+p2t	verNonGateTwigLayer	string	"PC"
+p2t	pinStrapWidth	float	0.018
+p2t	pinStrapPinLayer	string	"PC"
+p2t	pinStrapLayer	string	"PC"
+p2t	horGateTwigLayer	string	"PC"
+p2t	verGateTwigLayer	string	"PC"
+spectre.envOpts	firstRun	boolean	nil
+spectre.opts	additionalArgs	string	"vdsatmod=gds"
+spectre.opts	ivthw	string	"0"
+spectre.opts	vthmod	string	"vthcc"
+spectre.opts	ivthn	string	"300e-9"
+spectre.opts	ivthl	string	"0"
+spectre.opts	ivthp	string	"70e-9"
+spectre.outputs	simOutputFormat	string	"psfxl"
+spectreVerilog.envOpts	firstRun	boolean	nil

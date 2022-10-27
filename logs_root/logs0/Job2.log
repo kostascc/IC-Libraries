@@ -11,11 +11,11 @@
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = Interactive.323
-	Results DB   = /home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.323.rdb
-	Results Dir  = /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.323/1/wk_ADPLL:VCO_VI:1
-	Results Loc  = /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro
-	Project Dir  = /root/simulation
+	State Name   = Interactive.338
+	Results DB   = /home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.338.rdb
+	Results Dir  = /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.338/1/wk_ADPLL:VCO_VI:1
+	Results Loc  = /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro
+	Project Dir  = /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation
 	Setup DB loc = /home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1
 	File Encoding = 0
 
@@ -26,7 +26,6 @@
 
 *Info*    The auto suspension is disabled.
 
-Loading monte.cxt 
 
 
 
@@ -39,37 +38,44 @@ Resetting statistical vars
 
 *Info*    Setting parameter values ...
 
-Setting var I = "3m"
+Setting var C = ""
+Setting var I = "2m"
 Setting var NA = ""
 Setting var W1 = "13u"
-Setting var Ws = "0.4u"
+Setting var Ws = "400n"
 Setting var Ws1 = "1*Ws"
 Setting var Ws2 = "2*Ws"
 Setting var Ws3 = "4*Ws"
 Setting var Ws4 = "8*Ws"
 Setting var Ws5 = "16*Ws"
 Setting var Ws6 = "32*Ws"
+Setting var Ws7 = ""
 Setting temp(T) = 27
+Setting temp(T) = 85
 
 *Info*    Netlist Directory =
-          /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.323/1/wk_ADPLL:VCO_VI:1/netlist
+          /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.338/1/wk_ADPLL:VCO_VI:1/netlist
 
 
 *Info*    Data Directory    =
-          /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.323/1/wk_ADPLL:VCO_VI:1
+          /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.338/1/wk_ADPLL:VCO_VI:1
 
 
 *Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Loading genldCpf.cxt 
-Loading cpf.cxt 
-Loading seCore.cxt 
-Begin Incremental Netlisting Oct 25 00:13:18 2022
-End netlisting Oct 25 00:13:18 2022
+Initializing the control file using cp:
+    cp /opt/IC618/tools.lnx86/dfII/etc/si/control.spectre /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.338/1/wk_ADPLL:VCO_VI:1/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting Oct 26 21:13:08 2022
+End netlisting Oct 26 21:13:08 2022
 
-	The netlist is up to date.
-	Time taken to compare the design with netlist:   0.0s
+Netlisting Statistics:
+	Number of components:   36
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
 *Warning*	Additional design variables have been found during netlisting.
  		A value is necessary for successful simulation.
 		To simulate, assign values to all design variables with 
@@ -81,7 +87,7 @@ compose simulator input file...
 *Info*    Running simulation on testbench [ wk_ADPLL:VCO_VI:1 ] for
           Point ID (1 1).
 
-Delete psf data in /root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.323/1/wk_ADPLL:VCO_VI:1/psf.
+Delete psf data in /root/simulation/wk_ADPLL/VCO_VI/maestro/results/maestro/.tmpADEDir_root/simulation/wk_ADPLL/VCO_VI/maestro_1/results/maestro/Interactive.338/1/wk_ADPLL:VCO_VI:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -90,15 +96,94 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
-INFO (ADE-3071): Simulation completed successfully.
-reading simulation data...
-      ...successful.
-*Info*    Client has finished evaluating ... 
+INFO (ADE-3067): Errors encountered during simulation. For more information, right-click
+        on a test name in the 'Results' tab of the Outputs pane and choose 'Output Log'
+        to view the simulation run log.
 
-*Info*    Threshold=0.800
+*Error*   Error ID  = 5011
+*Error*   Error Msg = Simulator failed to complete the simulation.
 
-*Info*    Run complete for Point ID (1 1) on testbench [
-          wk_ADPLL:VCO_VI:1 ].
+          Error found by spectre during hierarchy flattening.
+Error
+          found by spectre during hierarchy flattening.
+ERROR
+          (SFE-1997): "input.scs" 71: N12: parameter `nf': Cannot run
+          the simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `nf': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `nf': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `nf': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `nf': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `ad': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `as': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `par_nf': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assig
+ned to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `w': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned t
+o it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `nf': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `nf': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `nf': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
+ERROR (SFE-1997):
+          "input.scs" 71: N12: parameter `nf': Cannot run the
+          simulation because parameter 'Ws7' has been used but no
+          value has been assigned 
+to it. Assign a value to the
+          parameter and rerun the simulation.
 
 
 
