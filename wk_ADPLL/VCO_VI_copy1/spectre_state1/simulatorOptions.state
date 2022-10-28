@@ -105,7 +105,7 @@
 (opts spDisableAll) nil
 (opts spEnableAll) nil
 (opts spSeverity) ""
-(opts temp) "27"
+(opts temp) "85.0"
 (opts tempeffects) ""
 (opts title) ""
 (opts tmevthmod) ""
