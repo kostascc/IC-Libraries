@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasheetMainDoc.xsl"?>
+<ROOT dsCreationDateTime="31 Oct 2022 19:05:48" dsAuthorName="" fnameprefix="Interactive.491" dsUserName="ic" viewMode="assembler" enableCpkPerc="disEnable" name="Interactive.491" parasiticsRunMode="None" runMode="Single Run, Sweeps and Corners">
+    <SETUPSUMMARY view="maestro_1" lib="wk_ADPLL" cell="VCO_VI"/>
+    <SCHDIAGRAMS exportPath="/home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1/documents/Interactive.491/"/>
+    <CORNERS>
+        <CORNER name="TT_85">
+            <VARS>
+                <VAR name="temperature">85</VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS>
+                <MODEL section="tt_pre" block="Global" enabled="false" test="All" name="design_wrapper.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</MODEL>
+                <MODEL section="" block="Global" enabled="false" test="All" name="design_wrapper_rf.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</MODEL>
+                <MODEL section="tt_pre" block="Global" enabled="true" test="All" name="design_wrapper_mmw.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</MODEL>
+            </MODELS>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST enabled="true" name="Time_Sweep"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="TT_125">
+            <VARS>
+                <VAR name="temperature">125</VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS>
+                <MODEL section="tt_pre" block="Global" enabled="false" test="All" name="design_wrapper.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</MODEL>
+                <MODEL section="" block="Global" enabled="false" test="All" name="design_wrapper_rf.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</MODEL>
+                <MODEL section="tt_pre" block="Global" enabled="true" test="All" name="design_wrapper_mmw.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</MODEL>
+            </MODELS>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST enabled="true" name="Time_Sweep"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="SS_m40">
+            <VARS>
+                <VAR name="temperature">-40</VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS>
+                <MODEL section="ss_pre" block="Global" enabled="false" test="All" name="design_wrapper.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</MODEL>
+                <MODEL section="" block="Global" enabled="false" test="All" name="design_wrapper_rf.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</MODEL>
+                <MODEL section="ss_pre" block="Global" enabled="true" test="All" name="design_wrapper_mmw.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</MODEL>
+            </MODELS>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST enabled="true" name="Time_Sweep"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="SS_125">
+            <VARS>
+                <VAR name="temperature">125</VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS>
+                <MODEL section="ss_pre" block="Global" enabled="false" test="All" name="design_wrapper.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</MODEL>
+                <MODEL section="" block="Global" enabled="false" test="All" name="design_wrapper_rf.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</MODEL>
+                <MODEL section="ss_pre" block="Global" enabled="true" test="All" name="design_wrapper_mmw.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</MODEL>
+            </MODELS>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST enabled="true" name="Time_Sweep"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="FF_m40">
+            <VARS>
+                <VAR name="temperature">-40</VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS>
+                <MODEL section="ff_pre" block="Global" enabled="false" test="All" name="design_wrapper.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</MODEL>
+                <MODEL section="" block="Global" enabled="false" test="All" name="design_wrapper_rf.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</MODEL>
+                <MODEL section="ff_pre" block="Global" enabled="true" test="All" name="design_wrapper_mmw.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</MODEL>
+            </MODELS>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST enabled="true" name="Time_Sweep"/></TESTSSTATUS>
+        </CORNER>
+        <CORNER name="FF_125">
+            <VARS>
+                <VAR name="temperature">125</VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS>
+                <MODEL section="ff_pre" block="Global" enabled="false" test="All" name="design_wrapper.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</MODEL>
+                <MODEL section="" block="Global" enabled="false" test="All" name="design_wrapper_rf.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</MODEL>
+                <MODEL section="ff_pre" block="Global" enabled="true" test="All" name="design_wrapper_mmw.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</MODEL>
+            </MODELS>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST enabled="true" name="Time_Sweep"/></TESTSSTATUS>
+        </CORNER>
+    </CORNERS>
+    <VARS>
+        <VAR name="Ws">150n 180n</VAR>
+        <VAR name="W1">9u</VAR>
+        <VAR name="C">35</VAR>
+        <VAR name="I">2.1m 2.6m 3.1m 3.7m</VAR>
+        <VAR name="S1">L</VAR>
+        <VAR name="H">0.8</VAR>
+        <VAR name="L">0</VAR>
+    </VARS>
+    <MODELGROUPS/>
+    <TESTS>
+        <TEST view="schematic" state="Interactive.491" lib="wk_ADPLL" cell="VCO_VI" simultor="spectre">Time_Sweep</TEST>
+    </TESTS>
+    <RESULTSSUMMARY>
+        <RSITEM maxVal="No Values" test="Time_Sweep" minVal="No Values" resultName="freqVa1" expName="freq(VT(&quot;/Va1&quot;) &quot;rising&quot; ?xName &quot;time&quot; ?mode &quot;auto&quot; ?threshold 0.8)" expType="expr"/>
+        <RSITEM min_status="fail" max_status="fail" maxVal="137G" specdesc="range 46G 66G" test="Time_Sweep" minVal="73.21G" resultName="avgCornerFreqVa1" expName="average(freqVa1 ?overall t)" expType="corners" status="fail"/>
+        <RSITEM maxVal="161.3G" test="Time_Sweep" minVal="38.41G" resultName="avgFreqVa1" expName="average(freqVa1)" expType="expr"/>
+        <RSITEM min_status="fail" max_status="fail" maxVal="120.1G" specdesc="minimize 1" test="Time_Sweep" minVal="68.82G" resultName="diffAvgFreqVa1" expName="(ymax(avgFreqVa1 ?overall t) - ymin(avgFreqVa1 ?overall t))" expType="corners" status="fail"/>
+        <RSITEM min_status="fail" max_status="pass" maxVal="1.185" specdesc="range 0.4 1.2" test="Time_Sweep" minVal="19.98m" resultName="VppVa1" expName="peakToPeak(VT(&quot;/Va1&quot;))" expType="expr" status="fail"/>
+        <RSITEM min_status="fail" max_status="fail" maxVal="843.8G" specdesc="range 0 100M" test="Time_Sweep" minVal="12.35G" resultName="diffFreqVa1" expName="(ymax(freqVa1) - ymin(freqVa1))" expType="expr" status="fail"/>
+        <RSITEM min_status="fail" max_status="fail" maxVal="No Values" specdesc="> -90" test="Time_Sweep" minVal="No Values" resultName="PhaseNoise_1M" expName="value(OutNoise 1000000.0)" expType="expr" status="fail"/>
+        <RSITEM min_status="fail" max_status="fail" maxVal="No Values" specdesc="&lt; -105" test="Time_Sweep" minVal="No Values" resultName="PhaseNoise_10M" expName="value(OutNoise 1e+07)" expType="expr" status="fail"/>
+    </RESULTSSUMMARY>
+    <TESTDOCS>
+        <TESTDOC testName="Time_Sweep" testFileName="Time_Sweep"/>
+    </TESTDOCS>
+</ROOT>

@@ -5,3 +5,5 @@ log_*
 logs_*/
 log_*/
 .cadence/
+*.cdslck
+*.cdslck*

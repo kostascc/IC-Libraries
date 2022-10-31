@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasheetMainDoc.xsl"?>
+<ROOT enableCpkPerc="disEnable" dsAuthorName="" fnameprefix="SlowOperation" viewMode="assembler" dsCreationDateTime="30 Oct 2022 12:31:04" name="Interactive.448" dsUserName="ic" runMode="Single Run, Sweeps and Corners" parasiticsRunMode="None">
+    <SCHDIAGRAMS exportPath="/home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1/documents/SlowOperation/"/>
+    <TESTDOCS>
+        <TESTDOC testName="Steady_State" testFileName="Steady_State"/>
+    </TESTDOCS>
+</ROOT>

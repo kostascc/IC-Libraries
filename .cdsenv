@@ -1,3 +1,4 @@
+viva.application	vivaWindowMode	string	"window"
 adexl.icrpStartup	binaryName	string	"virtuoso -nocdsinit"
 adexl.monte	samplingMethod	string	"random"
 ams.envOpts	netlisterMode	string	"AMS-UNL"
