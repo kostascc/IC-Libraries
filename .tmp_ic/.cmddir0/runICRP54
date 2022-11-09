@@ -1,7 +1,0 @@
-#!/bin/sh
-cdsVncserver :80
-sleep 3
-cd /home/ic/workspace
-virtuoso -nocdsinit -noautostart -mpssession "virtuoso83" -mpshost "rhel" -davinciService "DaVinciService_83_1667916187" -log '/home/ic/workspace/logs_ic/logs0/Job54.log'  -licenseLockFileName '/home/ic/workspace/.tmp_ic/.rhel_83'  -interactiveA -interactiveE -interactiveRTT -axlChildIdFlag 54 1>/dev/null  2>/dev/null 
-exit $?
-
