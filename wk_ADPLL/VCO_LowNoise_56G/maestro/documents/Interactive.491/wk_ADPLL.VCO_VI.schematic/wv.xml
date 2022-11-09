@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="wv.xsl"?>
+<virtuoso_design>
+
+  <top>
+      <mid>__mid__2</mid>
+      <lib>wk_ADPLL</lib>
+      <cell>VCO_VI</cell>
+      <view>schematic</view>
+      <image128>images/wk_ADPLL/VCO_VI/schematic/thumbnail_128x128.png</image128>
+      <image256>images/wk_ADPLL/VCO_VI/schematic/thumbnail_256x256.png</image256>
+      <image1024>images/wk_ADPLL/VCO_VI/schematic/thumbnail_1024x1024.png</image1024>
+  </top>
+  <bom>
+    <bom_item>
+      <refid>__mid__1</refid>
+      <lib>analogLib</lib>
+      <cell>gnd</cell>
+      <view>schematic</view>
+      <count>2</count>
+      <thumbnail128>images/analogLib/gnd/schematic/thumbnail_128x128.png</thumbnail128>
+      <thumbnail256>images/analogLib/gnd/schematic/thumbnail_256x256.png</thumbnail256>
+      <thumbnail1024>images/analogLib/gnd/schematic/thumbnail_1024x1024.png</thumbnail1024>
+    </bom_item>
+  </bom>
+  <master_details>
+    <master_detail>
+      <mid>__mid__1</mid>
+      <lib>analogLib</lib>
+      <cell>gnd</cell>
+      <view>schematic</view>
+      <count>2</count>
+      <image128>images/analogLib/gnd/schematic/thumbnail_128x128.png</image128>
+      <image256>images/analogLib/gnd/schematic/thumbnail_256x256.png</image256>
+      <image1024>images/analogLib/gnd/schematic/thumbnail_1024x1024.png</image1024>
+    </master_detail>
+  </master_details>
+  <occurrence_tree>
+    <children>1</children>
+    <occ>
+    <indent>1</indent>
+    <inst>I13</inst>
+    <refid>__mid__1</refid>
+    <lib>analogLib</lib>
+    <cell>gnd</cell>
+    <view>schematic</view>
+    <thumbnail128>images/analogLib/gnd/schematic/thumbnail_128x128.png</thumbnail128>
+    <thumbnail256>images/analogLib/gnd/schematic/thumbnail_256x256.png</thumbnail256>
+    <thumbnail1024>images/analogLib/gnd/schematic/thumbnail_1024x1024.png</thumbnail1024>
+    </occ>
+    <occ>
+    <indent>1</indent>
+    <inst>I12</inst>
+    <refid>__mid__1</refid>
+    <lib>analogLib</lib>
+    <cell>gnd</cell>
+    <view>schematic</view>
+    <thumbnail128>images/analogLib/gnd/schematic/thumbnail_128x128.png</thumbnail128>
+    <thumbnail256>images/analogLib/gnd/schematic/thumbnail_256x256.png</thumbnail256>
+    <thumbnail1024>images/analogLib/gnd/schematic/thumbnail_1024x1024.png</thumbnail1024>
+  </occ>
+  </occurrence_tree>
+  <gen_date>Oct 31 19:05:49 2022</gen_date>
+</virtuoso_design>

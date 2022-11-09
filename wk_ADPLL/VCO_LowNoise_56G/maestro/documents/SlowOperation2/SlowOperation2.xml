@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasheetMainDoc.xsl"?>
+<ROOT enableCpkPerc="disEnable" dsAuthorName="" fnameprefix="SlowOperation2" viewMode="assembler" dsCreationDateTime="30 Oct 2022 12:33:18" name="Interactive.448" dsUserName="ic" runMode="Single Run, Sweeps and Corners" parasiticsRunMode="None">
+    <SETUPSUMMARY lib="wk_ADPLL" view="maestro_1" cell="VCO_VI"/>
+    <SCHDIAGRAMS exportPath="/home/ic/workspace/wk_ADPLL/VCO_VI/maestro_1/documents/SlowOperation2/"/>
+    <CORNERS>
+        <CORNER name="SS_125">
+            <VARS>
+                <VAR name="temperature">125</VAR>
+            </VARS>
+            <PARAMS>
+                <LOCATIONS/>
+            </PARAMS>
+            <MODELS>
+                <MODEL test="All" section="ss_pre" block="Global" enabled="false" name="design_wrapper.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</MODEL>
+                <MODEL test="All" section="" block="Global" enabled="false" name="design_wrapper_rf.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</MODEL>
+                <MODEL test="All" section="ss_pre" block="Global" enabled="true" name="design_wrapper_mmw.lib.scs">$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</MODEL>
+            </MODELS>
+            <MODELGROUPNAME></MODELGROUPNAME>
+            <TESTSSTATUS>
+                <TEST enabled="true" name="Steady_State"/></TESTSSTATUS>
+        </CORNER>
+    </CORNERS>
+    <VARS>
+        <VAR name="Ws">200n</VAR>
+        <VAR name="W1">13u</VAR>
+        <VAR name="C">23</VAR>
+        <VAR name="I">0.6m:0.7m:11m</VAR>
+        <VAR name="Wss">150n</VAR>
+        <VAR name="S1">H</VAR>
+        <VAR colorIndex="1" name="B1">L H</VAR>
+        <VAR colorIndex="1" name="B2">L H</VAR>
+        <VAR colorIndex="1" name="B3">L H</VAR>
+        <VAR colorIndex="1" name="B4">L H</VAR>
+        <VAR colorIndex="1" name="B5">L H</VAR>
+        <VAR colorIndex="1" name="B6">L H</VAR>
+        <VAR name="H">0.8</VAR>
+        <VAR name="L">0</VAR>
+    </VARS>
+    <MODELGROUPS/>
+    <TESTS>
+        <TEST lib="wk_ADPLL" view="schematic" simultor="spectre" cell="VCO_VI" state="Interactive.448">Steady_State</TEST>
+    </TESTS>
+    <RESULTSSUMMARY>
+        <RSITEM test="Steady_State" minVal="No Values" resultName="freqVa1" expName="freq(VT(&quot;/Va1&quot;) &quot;rising&quot; ?xName &quot;time&quot; ?mode &quot;auto&quot; ?threshold 0.8)" expType="expr" maxVal="No Values"/>
+        <RSITEM test="Steady_State" minVal="42.48G" resultName="avgFreqVa1" expName="average(freqVa1)" expType="expr" maxVal="184.4G"/>
+        <RSITEM max_status="pass" test="Steady_State" minVal="0" resultName="diffAvgFreqVa1" expName="(ymax(avgFreqVa1 ?overall t) - ymin(avgFreqVa1 ?overall t))" status="pass" specdesc="minimize 1" expType="corners" min_status="pass" maxVal="0"/>
+        <RSITEM max_status="pass" test="Steady_State" minVal="1.079m" resultName="VppVa1" expName="peakToPeak(VT(&quot;/Va1&quot;))" status="fail" specdesc="range 0.4 1.2" expType="expr" min_status="fail" maxVal="668.5m"/>
+        <RSITEM max_status="fail" test="Steady_State" minVal="44.99M" resultName="diffFreqVa1" expName="(ymax(freqVa1) - ymin(freqVa1))" status="fail" specdesc="range 0 70M" expType="expr" min_status="pass" maxVal="835.6G"/>
+        <RSITEM max_status="fail" test="Steady_State" minVal="No Values" resultName="PhaseNoise_1M" expName="value(OutNoise 1000000.0)" status="fail" specdesc="> -90" expType="expr" min_status="fail" maxVal="No Values"/>
+        <RSITEM max_status="fail" test="Steady_State" minVal="No Values" resultName="PhaseNoise_10M" expName="value(OutNoise 1e+07)" status="fail" specdesc="&lt; -105" expType="expr" min_status="fail" maxVal="No Values"/>
+    </RESULTSSUMMARY>
+    <TESTDOCS>
+        <TESTDOC testName="Steady_State" testFileName="Steady_State"/>
+    </TESTDOCS>
+</ROOT>
