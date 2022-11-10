@@ -10,3 +10,6 @@ log_*/
 tmp*/
 .tmp*/
 .*/
+*/results/
+results/*
+results/
