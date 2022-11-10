@@ -1,0 +1,7 @@
+Corner,TT_85,TT_125,SS_m40,SS_125,FF_m40,FF_125
+Enable,t,f,t,t,t,t
+Temperature,85,125,-40,125,-40,125
+Modelfile::$SPECTRE_MODEL_PATH/design_wrapper.lib.scs,f tt_pre,f tt_pre,f ss_pre,f ss_pre,f ff_pre,f ff_pre
+Modelfile::$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs,f ,f ,f ,f ,f ,f 
+Modelfile::$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs,t tt_pre,t tt_pre,t ss_pre,t ss_pre,t ff_pre,t ff_pre
+t Test::Steady_State,t,t,t,t,t,t

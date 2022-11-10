@@ -1,0 +1,4731 @@
+<?xml version="1.0"?>
+<setupdb version="6">maestro
+	<active>Active Setup
+		<corners>
+			<corner enabled="0">_default</corner>
+			<corner enabled="0">TT_85
+				<vars>
+					<var>temperature
+						<value>85</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"tt_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"tt_pre"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">TT_125
+				<vars>
+					<var>temperature
+						<value>125</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"tt_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"tt_pre"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">SS_m40
+				<vars>
+					<var>temperature
+						<value>-40</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ss_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"ss_pre"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">SS_125
+				<vars>
+					<var>temperature
+						<value>125</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ss_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"ss_pre"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="1">FF_m40
+				<vars>
+					<var>temperature
+						<value>-40</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+				</models>
+			</corner>
+			<corner enabled="0">FF_125
+				<vars>
+					<var>temperature
+						<value>125</value>
+					</var>
+				</vars>
+				<models>
+					<model enabled="0">design_wrapper.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+					<model enabled="0">design_wrapper_rf.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+						<modelsection></modelsection>
+					</model>
+					<model enabled="1">design_wrapper_mmw.lib.scs
+						<modeltest>All</modeltest>
+						<modelblock>Global</modelblock>
+						<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+						<modelsection>"ff_pre"</modelsection>
+					</model>
+				</models>
+			</corner>
+		</corners>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test enabled="1">wk_ADPLL:DCCS:1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>DCCS</value>
+					</option>
+					<option>lib
+						<value>wk_ADPLL</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>DCCS</value>
+					</option>
+					<option>lib
+						<value>wk_ADPLL</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+				<vars>
+					<var>H
+						<value>0.8</value>
+					</var>
+					<var>L
+						<value>0</value>
+					</var>
+					<var>s1
+						<value>L</value>
+					</var>
+					<var>s2
+						<value>L</value>
+					</var>
+					<var>Wref
+						<value>2u</value>
+					</var>
+					<var>R
+						<value>1K</value>
+					</var>
+					<var>M1
+						<value></value>
+					</var>
+					<var>I
+						<value></value>
+					</var>
+					<var>M2
+						<value></value>
+					</var>
+					<var>M3
+						<value></value>
+					</var>
+					<var>NFup
+						<value></value>
+					</var>
+					<var>Lmrr
+						<value></value>
+					</var>
+					<var>Lsw
+						<value></value>
+					</var>
+				</vars>
+				<outputs>
+					<output>average(VT("/R0/PLUS)"))
+						<evalType>point</evalType>
+					</output>
+					<output>average(Iref)
+						<evalType>point</evalType>
+					</output>
+					<output>average(VT("/Iref"))
+						<evalType>point</evalType>
+						<units>A</units>
+					</output>
+					<output>avgIref
+						<evalType>point</evalType>
+					</output>
+					<output>/Vs1
+						<evalType>point</evalType>
+					</output>
+					<output>/Vs2
+						<evalType>point</evalType>
+					</output>
+					<output>/N0/d
+						<evalType>point</evalType>
+					</output>
+					<output>/Iref
+						<evalType>point</evalType>
+					</output>
+					<output>diffAvgIref
+						<evalType>corners</evalType>
+					</output>
+					<output>avgVref
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+				<jobpolicyname>Maestro Default</jobpolicyname>
+			</test>
+		</tests>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+		</checksasserts>
+		<plottingoptions>
+			<plottingoption>waveformtemplate
+				<value>(None)</value>
+			</plottingoption>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+		<exploreroptions>
+			<exploreroption>waveformtemplate
+				<value>(None)</value>
+			</exploreroption>
+		</exploreroptions>
+		<vars>
+			<var enabled="1">s1
+				<value>L</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var enabled="1">s2
+				<value>H</value>
+				<dependentTests>
+					<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>s3
+				<value>H</value>
+			</var>
+			<var>Wref
+				<value>1u</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>R
+				<value>50</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>M1
+				<value>1</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>I
+				<value>1.3m</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>M2
+				<value>2</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>M3
+				<value>4</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>NFup
+				<value>7</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Lmrr
+				<value>20n 40n 80n 120n</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+			<var>Lsw
+				<value>20n</value>
+				<dependentTests>
+					<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+				</dependentTests>
+			</var>
+		</vars>
+		<allparametersdisabled>1</allparametersdisabled>
+		<allcornersenabled>1</allcornersenabled>
+		<incrementalsimulationoptions>
+			<incrementalSimulation>0</incrementalSimulation>
+			<checkassembler>1</checkassembler>
+			<checkdesign>0</checkdesign>
+			<checksimulationfiles>0</checksimulationfiles>
+		</incrementalsimulationoptions>
+		<overwritehistoryname>Interactive.0</overwritehistoryname>
+		<distributeoptions>
+			<genusjoblimits>
+				<genusjoblimit>ICRP
+					<value>2</value>
+				</genusjoblimit>
+			</genusjoblimits>
+			<specifyjoblimit>1</specifyjoblimit>
+			<parallelrun>1</parallelrun>
+		</distributeoptions>
+		<variablesets>
+			<variableset>0
+				<vars>
+					<var>s1
+						<value></value>
+					</var>
+					<var>s2
+						<value></value>
+					</var>
+					<var>s3
+						<value></value>
+					</var>
+				</vars>
+			</variableset>
+		</variablesets>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.112
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="0">TT_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">TT_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:DCCS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.112</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<vars>
+							<var>H
+								<value>0.8</value>
+							</var>
+							<var>L
+								<value>0</value>
+							</var>
+							<var>s1
+								<value>L</value>
+							</var>
+							<var>s2
+								<value>L</value>
+							</var>
+							<var>Wref
+								<value>2u</value>
+							</var>
+							<var>R
+								<value>1K</value>
+							</var>
+							<var>M1
+								<value></value>
+							</var>
+							<var>I
+								<value></value>
+							</var>
+							<var>M2
+								<value></value>
+							</var>
+							<var>M3
+								<value></value>
+							</var>
+							<var>NFup
+								<value></value>
+							</var>
+						</vars>
+						<outputs>
+							<output>average(VT("/R0/PLUS)"))
+								<evalType>point</evalType>
+							</output>
+							<output>average(Iref)
+								<evalType>point</evalType>
+							</output>
+							<output>average(VT("/Iref"))
+								<evalType>point</evalType>
+								<units>A</units>
+							</output>
+							<output>avgIref
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs2
+								<evalType>point</evalType>
+							</output>
+							<output>/N0/d
+								<evalType>point</evalType>
+							</output>
+							<output>/Iref
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<jobpolicyname>Maestro Default</jobpolicyname>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<vars>
+					<var enabled="1">s1
+						<value>L</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">s2
+						<value>H</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>s3
+						<value>H</value>
+					</var>
+					<var>Wref
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>1.3m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M3
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NFup
+						<value>7</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>1</allcornersenabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+					<checkassembler>1</checkassembler>
+					<checkdesign>0</checkdesign>
+					<checksimulationfiles>0</checksimulationfiles>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<distributeoptions>
+					<genusjoblimits>
+						<genusjoblimit>ICRP
+							<value>2</value>
+						</genusjoblimit>
+					</genusjoblimits>
+					<specifyjoblimit>1</specifyjoblimit>
+					<parallelrun>1</parallelrun>
+				</distributeoptions>
+				<variablesets>
+					<variableset>0
+						<vars>
+							<var>s1
+								<value></value>
+							</var>
+							<var>s2
+								<value></value>
+							</var>
+							<var>s3
+								<value></value>
+							</var>
+						</vars>
+					</variableset>
+				</variablesets>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 10 14:50:30 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.112.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.112.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_145030079</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.112</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.112</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.112.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.112.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.113
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="0">TT_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">TT_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:DCCS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.113</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<vars>
+							<var>H
+								<value>0.8</value>
+							</var>
+							<var>L
+								<value>0</value>
+							</var>
+							<var>s1
+								<value>L</value>
+							</var>
+							<var>s2
+								<value>L</value>
+							</var>
+							<var>Wref
+								<value>2u</value>
+							</var>
+							<var>R
+								<value>1K</value>
+							</var>
+							<var>M1
+								<value></value>
+							</var>
+							<var>I
+								<value></value>
+							</var>
+							<var>M2
+								<value></value>
+							</var>
+							<var>M3
+								<value></value>
+							</var>
+							<var>NFup
+								<value></value>
+							</var>
+						</vars>
+						<outputs>
+							<output>average(VT("/R0/PLUS)"))
+								<evalType>point</evalType>
+							</output>
+							<output>average(Iref)
+								<evalType>point</evalType>
+							</output>
+							<output>average(VT("/Iref"))
+								<evalType>point</evalType>
+								<units>A</units>
+							</output>
+							<output>avgIref
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs2
+								<evalType>point</evalType>
+							</output>
+							<output>/N0/d
+								<evalType>point</evalType>
+							</output>
+							<output>/Iref
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<jobpolicyname>Maestro Default</jobpolicyname>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<vars>
+					<var enabled="1">s1
+						<value>L</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">s2
+						<value>H</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>s3
+						<value>H</value>
+					</var>
+					<var>Wref
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>1.3m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M3
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NFup
+						<value>7</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>1</allcornersenabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+					<checkassembler>1</checkassembler>
+					<checkdesign>0</checkdesign>
+					<checksimulationfiles>0</checksimulationfiles>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<distributeoptions>
+					<genusjoblimits>
+						<genusjoblimit>ICRP
+							<value>2</value>
+						</genusjoblimit>
+					</genusjoblimits>
+					<specifyjoblimit>1</specifyjoblimit>
+					<parallelrun>1</parallelrun>
+				</distributeoptions>
+				<variablesets>
+					<variableset>0
+						<vars>
+							<var>s1
+								<value></value>
+							</var>
+							<var>s2
+								<value></value>
+							</var>
+							<var>s3
+								<value></value>
+							</var>
+						</vars>
+					</variableset>
+				</variablesets>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 10 14:50:31 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.113.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.113.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_145031385</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.113</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.113</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.113.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.113.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.114
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="0">TT_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">TT_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:DCCS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.114</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<vars>
+							<var>H
+								<value>0.8</value>
+							</var>
+							<var>L
+								<value>0</value>
+							</var>
+							<var>s1
+								<value>L</value>
+							</var>
+							<var>s2
+								<value>L</value>
+							</var>
+							<var>Wref
+								<value>2u</value>
+							</var>
+							<var>R
+								<value>1K</value>
+							</var>
+							<var>M1
+								<value></value>
+							</var>
+							<var>I
+								<value></value>
+							</var>
+							<var>M2
+								<value></value>
+							</var>
+							<var>M3
+								<value></value>
+							</var>
+							<var>NFup
+								<value></value>
+							</var>
+						</vars>
+						<outputs>
+							<output>average(VT("/R0/PLUS)"))
+								<evalType>point</evalType>
+							</output>
+							<output>average(Iref)
+								<evalType>point</evalType>
+							</output>
+							<output>average(VT("/Iref"))
+								<evalType>point</evalType>
+								<units>A</units>
+							</output>
+							<output>avgIref
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs2
+								<evalType>point</evalType>
+							</output>
+							<output>/N0/d
+								<evalType>point</evalType>
+							</output>
+							<output>/Iref
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<jobpolicyname>Maestro Default</jobpolicyname>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<vars>
+					<var enabled="1">s1
+						<value>L</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">s2
+						<value>H</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>s3
+						<value>H</value>
+					</var>
+					<var>Wref
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>1.3m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M3
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NFup
+						<value>7</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>1</allcornersenabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+					<checkassembler>1</checkassembler>
+					<checkdesign>0</checkdesign>
+					<checksimulationfiles>0</checksimulationfiles>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<distributeoptions>
+					<genusjoblimits>
+						<genusjoblimit>ICRP
+							<value>2</value>
+						</genusjoblimit>
+					</genusjoblimits>
+					<specifyjoblimit>1</specifyjoblimit>
+					<parallelrun>1</parallelrun>
+				</distributeoptions>
+				<variablesets>
+					<variableset>0
+						<vars>
+							<var>s1
+								<value></value>
+							</var>
+							<var>s2
+								<value></value>
+							</var>
+							<var>s3
+								<value></value>
+							</var>
+						</vars>
+					</variableset>
+				</variablesets>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 10 14:50:56 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.114.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.114.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_145056210</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.114</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.114</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.114.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.114.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.115
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="0">TT_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">TT_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:DCCS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.115</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<vars>
+							<var>H
+								<value>0.8</value>
+							</var>
+							<var>L
+								<value>0</value>
+							</var>
+							<var>s1
+								<value>L</value>
+							</var>
+							<var>s2
+								<value>L</value>
+							</var>
+							<var>Wref
+								<value>2u</value>
+							</var>
+							<var>R
+								<value>1K</value>
+							</var>
+							<var>M1
+								<value></value>
+							</var>
+							<var>I
+								<value></value>
+							</var>
+							<var>M2
+								<value></value>
+							</var>
+							<var>M3
+								<value></value>
+							</var>
+							<var>NFup
+								<value></value>
+							</var>
+						</vars>
+						<outputs>
+							<output>average(VT("/R0/PLUS)"))
+								<evalType>point</evalType>
+							</output>
+							<output>average(Iref)
+								<evalType>point</evalType>
+							</output>
+							<output>average(VT("/Iref"))
+								<evalType>point</evalType>
+								<units>A</units>
+							</output>
+							<output>avgIref
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs2
+								<evalType>point</evalType>
+							</output>
+							<output>/N0/d
+								<evalType>point</evalType>
+							</output>
+							<output>/Iref
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<jobpolicyname>Maestro Default</jobpolicyname>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<vars>
+					<var enabled="1">s1
+						<value>L</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">s2
+						<value>H</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>s3
+						<value>H</value>
+					</var>
+					<var>Wref
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>1.3m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M3
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NFup
+						<value>7</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>1</allcornersenabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+					<checkassembler>1</checkassembler>
+					<checkdesign>0</checkdesign>
+					<checksimulationfiles>0</checksimulationfiles>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<distributeoptions>
+					<genusjoblimits>
+						<genusjoblimit>ICRP
+							<value>2</value>
+						</genusjoblimit>
+					</genusjoblimits>
+					<specifyjoblimit>1</specifyjoblimit>
+					<parallelrun>1</parallelrun>
+				</distributeoptions>
+				<variablesets>
+					<variableset>0
+						<vars>
+							<var>s1
+								<value></value>
+							</var>
+							<var>s2
+								<value></value>
+							</var>
+							<var>s3
+								<value></value>
+							</var>
+						</vars>
+					</variableset>
+				</variablesets>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 10 14:51:42 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.115.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.115.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_145142786</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.115</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.115</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.115.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.115.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.116
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="0">TT_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">TT_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:DCCS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.116</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<vars>
+							<var>H
+								<value>0.8</value>
+							</var>
+							<var>L
+								<value>0</value>
+							</var>
+							<var>s1
+								<value>L</value>
+							</var>
+							<var>s2
+								<value>L</value>
+							</var>
+							<var>Wref
+								<value>2u</value>
+							</var>
+							<var>R
+								<value>1K</value>
+							</var>
+							<var>M1
+								<value></value>
+							</var>
+							<var>I
+								<value></value>
+							</var>
+							<var>M2
+								<value></value>
+							</var>
+							<var>M3
+								<value></value>
+							</var>
+							<var>NFup
+								<value></value>
+							</var>
+						</vars>
+						<outputs>
+							<output>average(VT("/R0/PLUS)"))
+								<evalType>point</evalType>
+							</output>
+							<output>average(Iref)
+								<evalType>point</evalType>
+							</output>
+							<output>average(VT("/Iref"))
+								<evalType>point</evalType>
+								<units>A</units>
+							</output>
+							<output>avgIref
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs2
+								<evalType>point</evalType>
+							</output>
+							<output>/N0/d
+								<evalType>point</evalType>
+							</output>
+							<output>/Iref
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<jobpolicyname>Maestro Default</jobpolicyname>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<vars>
+					<var enabled="1">s1
+						<value>L</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">s2
+						<value>H</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>s3
+						<value>H</value>
+					</var>
+					<var>Wref
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>1K</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>1.3m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M3
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NFup
+						<value>7</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>1</allcornersenabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+					<checkassembler>1</checkassembler>
+					<checkdesign>0</checkdesign>
+					<checksimulationfiles>0</checksimulationfiles>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<distributeoptions>
+					<genusjoblimits>
+						<genusjoblimit>ICRP
+							<value>2</value>
+						</genusjoblimit>
+					</genusjoblimits>
+					<specifyjoblimit>1</specifyjoblimit>
+					<parallelrun>1</parallelrun>
+				</distributeoptions>
+				<variablesets>
+					<variableset>0
+						<vars>
+							<var>s1
+								<value></value>
+							</var>
+							<var>s2
+								<value></value>
+							</var>
+							<var>s3
+								<value></value>
+							</var>
+						</vars>
+					</variableset>
+				</variablesets>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 10 14:52:41 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.116.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.116.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_145241747</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.116</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.116</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.116.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.116.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.117
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="0">TT_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">TT_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:DCCS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.117</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<vars>
+							<var>H
+								<value>0.8</value>
+							</var>
+							<var>L
+								<value>0</value>
+							</var>
+							<var>s1
+								<value>L</value>
+							</var>
+							<var>s2
+								<value>L</value>
+							</var>
+							<var>Wref
+								<value>2u</value>
+							</var>
+							<var>R
+								<value>1K</value>
+							</var>
+							<var>M1
+								<value></value>
+							</var>
+							<var>I
+								<value></value>
+							</var>
+							<var>M2
+								<value></value>
+							</var>
+							<var>M3
+								<value></value>
+							</var>
+							<var>NFup
+								<value></value>
+							</var>
+						</vars>
+						<jobpolicyname>Maestro Default</jobpolicyname>
+						<outputs>
+							<output>average(VT("/R0/PLUS)"))
+								<evalType>point</evalType>
+							</output>
+							<output>average(Iref)
+								<evalType>point</evalType>
+							</output>
+							<output>average(VT("/Iref"))
+								<evalType>point</evalType>
+								<units>A</units>
+							</output>
+							<output>avgIref
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs2
+								<evalType>point</evalType>
+							</output>
+							<output>/N0/d
+								<evalType>point</evalType>
+							</output>
+							<output>/Iref
+								<evalType>point</evalType>
+							</output>
+							<output>diffAvgIref
+								<evalType>corners</evalType>
+							</output>
+						</outputs>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<vars>
+					<var enabled="1">s1
+						<value>L</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">s2
+						<value>H</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>s3
+						<value>H</value>
+					</var>
+					<var>Wref
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>1.3m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M3
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NFup
+						<value>7</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>20n 40n 80n 120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>1</allcornersenabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+					<checkassembler>1</checkassembler>
+					<checkdesign>0</checkdesign>
+					<checksimulationfiles>0</checksimulationfiles>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<distributeoptions>
+					<genusjoblimits>
+						<genusjoblimit>ICRP
+							<value>2</value>
+						</genusjoblimit>
+					</genusjoblimits>
+					<specifyjoblimit>1</specifyjoblimit>
+					<parallelrun>1</parallelrun>
+				</distributeoptions>
+				<variablesets>
+					<variableset>0
+						<vars>
+							<var>s1
+								<value></value>
+							</var>
+							<var>s2
+								<value></value>
+							</var>
+							<var>s3
+								<value></value>
+							</var>
+						</vars>
+					</variableset>
+				</variablesets>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Nov 10 15:18:01 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.117.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.117.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_151802026</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.117</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.117</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.117.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.117.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>L
+						<value>0</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.118
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="0">TT_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">TT_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:DCCS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.118</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<vars>
+							<var>H
+								<value>0.8</value>
+							</var>
+							<var>L
+								<value>0</value>
+							</var>
+							<var>s1
+								<value>L</value>
+							</var>
+							<var>s2
+								<value>L</value>
+							</var>
+							<var>Wref
+								<value>2u</value>
+							</var>
+							<var>R
+								<value>1K</value>
+							</var>
+							<var>M1
+								<value></value>
+							</var>
+							<var>I
+								<value></value>
+							</var>
+							<var>M2
+								<value></value>
+							</var>
+							<var>M3
+								<value></value>
+							</var>
+							<var>NFup
+								<value></value>
+							</var>
+						</vars>
+						<outputs>
+							<output>average(VT("/R0/PLUS)"))
+								<evalType>point</evalType>
+							</output>
+							<output>average(Iref)
+								<evalType>point</evalType>
+							</output>
+							<output>average(VT("/Iref"))
+								<evalType>point</evalType>
+								<units>A</units>
+							</output>
+							<output>avgIref
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs2
+								<evalType>point</evalType>
+							</output>
+							<output>/N0/d
+								<evalType>point</evalType>
+							</output>
+							<output>/Iref
+								<evalType>point</evalType>
+							</output>
+							<output>diffAvgIref
+								<evalType>corners</evalType>
+							</output>
+						</outputs>
+						<jobpolicyname>Maestro Default</jobpolicyname>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<vars>
+					<var enabled="1">s1
+						<value>L</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">s2
+						<value>H</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>s3
+						<value>H</value>
+					</var>
+					<var>Wref
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>1.3m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M3
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NFup
+						<value>7</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>20n 40n 80n 120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>1</allcornersenabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+					<checkassembler>1</checkassembler>
+					<checkdesign>0</checkdesign>
+					<checksimulationfiles>0</checksimulationfiles>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<distributeoptions>
+					<genusjoblimits>
+						<genusjoblimit>ICRP
+							<value>2</value>
+						</genusjoblimit>
+					</genusjoblimits>
+					<specifyjoblimit>1</specifyjoblimit>
+					<parallelrun>1</parallelrun>
+				</distributeoptions>
+				<variablesets>
+					<variableset>0
+						<vars>
+							<var>s1
+								<value></value>
+							</var>
+							<var>s2
+								<value></value>
+							</var>
+							<var>s3
+								<value></value>
+							</var>
+						</vars>
+					</variableset>
+				</variablesets>
+				<sortVariableValues>0</sortVariableValues>
+				<waveglobalsetups>
+					<waveglobals>
+						<waveglobal>algorithm
+							<value>Asymmetrical</value>
+						</waveglobal>
+					</waveglobals>
+				</waveglobalsetups>
+			</checkpoint>
+			<timestamp>Nov 10 15:29:16 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.118.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.118.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_152916659</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.118</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.118</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.118.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.118.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>L
+						<value>0</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.119
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="0">TT_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">TT_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:DCCS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.119</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<vars>
+							<var>H
+								<value>0.8</value>
+							</var>
+							<var>L
+								<value>0</value>
+							</var>
+							<var>s1
+								<value>L</value>
+							</var>
+							<var>s2
+								<value>L</value>
+							</var>
+							<var>Wref
+								<value>2u</value>
+							</var>
+							<var>R
+								<value>1K</value>
+							</var>
+							<var>M1
+								<value></value>
+							</var>
+							<var>I
+								<value></value>
+							</var>
+							<var>M2
+								<value></value>
+							</var>
+							<var>M3
+								<value></value>
+							</var>
+							<var>NFup
+								<value></value>
+							</var>
+						</vars>
+						<outputs>
+							<output>average(VT("/R0/PLUS)"))
+								<evalType>point</evalType>
+							</output>
+							<output>average(Iref)
+								<evalType>point</evalType>
+							</output>
+							<output>average(VT("/Iref"))
+								<evalType>point</evalType>
+								<units>A</units>
+							</output>
+							<output>avgIref
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs2
+								<evalType>point</evalType>
+							</output>
+							<output>/N0/d
+								<evalType>point</evalType>
+							</output>
+							<output>/Iref
+								<evalType>point</evalType>
+							</output>
+							<output>diffAvgIref
+								<evalType>corners</evalType>
+							</output>
+						</outputs>
+						<jobpolicyname>Maestro Default</jobpolicyname>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<vars>
+					<var enabled="1">s1
+						<value>L</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">s2
+						<value>H</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>s3
+						<value>H</value>
+					</var>
+					<var>Wref
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>1.3m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M3
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NFup
+						<value>7</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>20n 40n 80n 120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>1</allcornersenabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+					<checkassembler>1</checkassembler>
+					<checkdesign>0</checkdesign>
+					<checksimulationfiles>0</checksimulationfiles>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<distributeoptions>
+					<genusjoblimits>
+						<genusjoblimit>ICRP
+							<value>2</value>
+						</genusjoblimit>
+					</genusjoblimits>
+					<specifyjoblimit>1</specifyjoblimit>
+					<parallelrun>1</parallelrun>
+				</distributeoptions>
+				<variablesets>
+					<variableset>0
+						<vars>
+							<var>s1
+								<value></value>
+							</var>
+							<var>s2
+								<value></value>
+							</var>
+							<var>s3
+								<value></value>
+							</var>
+						</vars>
+					</variableset>
+				</variablesets>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 10 15:33:48 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.119.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.119.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_153348324</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.119</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.119</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.119.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.119.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>L
+						<value>0</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.120
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="0">TT_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">TT_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:DCCS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.120</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<vars>
+							<var>H
+								<value>0.8</value>
+							</var>
+							<var>L
+								<value>0</value>
+							</var>
+							<var>s1
+								<value>L</value>
+							</var>
+							<var>s2
+								<value>L</value>
+							</var>
+							<var>Wref
+								<value>2u</value>
+							</var>
+							<var>R
+								<value>1K</value>
+							</var>
+							<var>M1
+								<value></value>
+							</var>
+							<var>I
+								<value></value>
+							</var>
+							<var>M2
+								<value></value>
+							</var>
+							<var>M3
+								<value></value>
+							</var>
+							<var>NFup
+								<value></value>
+							</var>
+						</vars>
+						<outputs>
+							<output>average(VT("/R0/PLUS)"))
+								<evalType>point</evalType>
+							</output>
+							<output>average(Iref)
+								<evalType>point</evalType>
+							</output>
+							<output>average(VT("/Iref"))
+								<evalType>point</evalType>
+								<units>A</units>
+							</output>
+							<output>avgIref
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs2
+								<evalType>point</evalType>
+							</output>
+							<output>/N0/d
+								<evalType>point</evalType>
+							</output>
+							<output>/Iref
+								<evalType>point</evalType>
+							</output>
+							<output>diffAvgIref
+								<evalType>corners</evalType>
+							</output>
+						</outputs>
+						<jobpolicyname>Maestro Default</jobpolicyname>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<vars>
+					<var enabled="1">s1
+						<value>L</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">s2
+						<value>H</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>s3
+						<value>H</value>
+					</var>
+					<var>Wref
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>1.3m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M3
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NFup
+						<value>7</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>L
+						<value>20n 40n 80n 120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>1</allcornersenabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+					<checkassembler>1</checkassembler>
+					<checkdesign>0</checkdesign>
+					<checksimulationfiles>0</checksimulationfiles>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<distributeoptions>
+					<genusjoblimits>
+						<genusjoblimit>ICRP
+							<value>2</value>
+						</genusjoblimit>
+					</genusjoblimits>
+					<specifyjoblimit>1</specifyjoblimit>
+					<parallelrun>1</parallelrun>
+				</distributeoptions>
+				<variablesets>
+					<variableset>0
+						<vars>
+							<var>s1
+								<value></value>
+							</var>
+							<var>s2
+								<value></value>
+							</var>
+							<var>s3
+								<value></value>
+							</var>
+						</vars>
+					</variableset>
+				</variablesets>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 10 15:40:32 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.120.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.120.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_154032170</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.120</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.120</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.120.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.120.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>L
+						<value>0</value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="view" runningOrFinished="finished">Interactive.121
+			<checkpoint>
+				<corners>
+					<corner enabled="0">_default</corner>
+					<corner enabled="0">TT_85
+						<vars>
+							<var>temperature
+								<value>85</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">TT_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"tt_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">SS_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">SS_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ss_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="1">FF_m40
+						<vars>
+							<var>temperature
+								<value>-40</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+					<corner enabled="0">FF_125
+						<vars>
+							<var>temperature
+								<value>125</value>
+							</var>
+						</vars>
+						<models>
+							<model enabled="0">design_wrapper.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+							<model enabled="0">design_wrapper_rf.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_rf.lib.scs</modelfile>
+								<modelsection></modelsection>
+							</model>
+							<model enabled="1">design_wrapper_mmw.lib.scs
+								<modeltest>All</modeltest>
+								<modelblock>Global</modelblock>
+								<modelfile>$SPECTRE_MODEL_PATH/design_wrapper_mmw.lib.scs</modelfile>
+								<modelsection>"ff_pre"</modelsection>
+							</model>
+						</models>
+					</corner>
+				</corners>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test enabled="1">wk_ADPLL:DCCS:1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>state
+								<value>Interactive.121</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>DCCS</value>
+							</option>
+							<option>lib
+								<value>wk_ADPLL</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<vars>
+							<var>H
+								<value>0.8</value>
+							</var>
+							<var>L
+								<value>0</value>
+							</var>
+							<var>s1
+								<value>L</value>
+							</var>
+							<var>s2
+								<value>L</value>
+							</var>
+							<var>Wref
+								<value>2u</value>
+							</var>
+							<var>R
+								<value>1K</value>
+							</var>
+							<var>M1
+								<value></value>
+							</var>
+							<var>I
+								<value></value>
+							</var>
+							<var>M2
+								<value></value>
+							</var>
+							<var>M3
+								<value></value>
+							</var>
+							<var>NFup
+								<value></value>
+							</var>
+							<var>Lmrr
+								<value></value>
+							</var>
+							<var>Lsw
+								<value></value>
+							</var>
+						</vars>
+						<outputs>
+							<output>average(VT("/R0/PLUS)"))
+								<evalType>point</evalType>
+							</output>
+							<output>average(Iref)
+								<evalType>point</evalType>
+							</output>
+							<output>average(VT("/Iref"))
+								<evalType>point</evalType>
+								<units>A</units>
+							</output>
+							<output>avgIref
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs1
+								<evalType>point</evalType>
+							</output>
+							<output>/Vs2
+								<evalType>point</evalType>
+							</output>
+							<output>/N0/d
+								<evalType>point</evalType>
+							</output>
+							<output>/Iref
+								<evalType>point</evalType>
+							</output>
+							<output>diffAvgIref
+								<evalType>corners</evalType>
+							</output>
+						</outputs>
+						<jobpolicyname>Maestro Default</jobpolicyname>
+					</test>
+				</tests>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">wk_ADPLL:DCCS:1</test>
+				</checksasserts>
+				<plottingoptions>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>plottingmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>plottype
+						<value>None</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>allplottingtemplates
+						<value></value>
+					</plottingoption>
+					<plottingoption>defaultplottingtemplate
+						<value></value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<vars>
+					<var enabled="1">s1
+						<value>L</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var enabled="1">s2
+						<value>H</value>
+						<dependentTests>
+							<dependentTest enabled="1" omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>s3
+						<value>H</value>
+					</var>
+					<var>Wref
+						<value>1u</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>R
+						<value>50</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M1
+						<value>1</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>I
+						<value>1.3m</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M2
+						<value>2</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>M3
+						<value>4</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>NFup
+						<value>7</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Lmrr
+						<value>20n 40n 80n 120n</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+					<var>Lsw
+						<value>20n</value>
+						<dependentTests>
+							<dependentTest omitted="0">wk_ADPLL:DCCS:1</dependentTest>
+						</dependentTests>
+					</var>
+				</vars>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>1</allcornersenabled>
+				<incrementalsimulationoptions>
+					<incrementalSimulation>0</incrementalSimulation>
+					<checkassembler>1</checkassembler>
+					<checkdesign>0</checkdesign>
+					<checksimulationfiles>0</checksimulationfiles>
+				</incrementalsimulationoptions>
+				<overwritehistoryname>Interactive.0</overwritehistoryname>
+				<distributeoptions>
+					<genusjoblimits>
+						<genusjoblimit>ICRP
+							<value>2</value>
+						</genusjoblimit>
+					</genusjoblimits>
+					<specifyjoblimit>1</specifyjoblimit>
+					<parallelrun>1</parallelrun>
+				</distributeoptions>
+				<variablesets>
+					<variableset>0
+						<vars>
+							<var>s1
+								<value></value>
+							</var>
+							<var>s2
+								<value></value>
+							</var>
+							<var>s3
+								<value></value>
+							</var>
+						</vars>
+					</variableset>
+				</variablesets>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Nov 10 15:42:47 2022</timestamp>
+			<resultsname>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.121.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/Interactive.121.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/rhel_ic_154247493</localpsfdir>
+			<psfdir>/home/ic/simulation/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.121</psfdir>
+			<simdir>$AXL_PROJECT_DIR/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.121</simdir>
+			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
+			<runlog>/home/ic/workspace/wk_ADPLL/DCCS/maestro/results/maestro/Interactive.121.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/Interactive.121.log</runlogfile>
+			<schematicpoint>
+				<vars>
+					<var>Lmrr
+						<value></value>
+					</var>
+				</vars>
+			</schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>
